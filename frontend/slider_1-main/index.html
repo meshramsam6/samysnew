@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/frontend/index.html">Home</a>
+            <a href="/frontend/review/review.html">Review</a>
+            <a href="/frontend/eatery-master/index.html">Info</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list"></div>
+        <!-- list thumbnail -->
+        <div class="thumbnail"></div>
+
+        <!-- next prev -->
+        <div class="arrows">
+            <button id="prev">
+                << /button>
+                    <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+
+
+<script>
+    // Load products from the JSON file
+    fetch('/frontend/data/products.json')
+        .then(response => response.json())
+        .then(data => {
+            const productListDom = document.querySelector('.product-list');
+
+            data.forEach(product => { // Assuming your JSON is an array of products
+                // Create a product item
+                const productDiv = document.createElement('div');
+                productDiv.classList.add('product');
+                productDiv.innerHTML = `
+                        <img src="${product.url2}" alt="${product.name}" />
+                        <h2>${product.name}</h2>
+                        <p>Price: ₹${product.price}</p>
+                        <button onclick="subscribeProduct(${product.id})">SUBSCRIBE</button>
+                    `;
+                productListDom.appendChild(productDiv);
+            });
+        })
+        .catch(error => console.error('Error loading product data:', error));
+
+    function subscribeProduct(productId) {
+        // Get the existing cart from localStorage
+        let cart = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
+
+        // Find if the product is already in the cart
+        let existingProductIndex = cart.findIndex(item => item.product_id == productId);
+
+        if (existingProductIndex >= 0) {
+            // If product is already in the cart, increase its quantity
+            cart[existingProductIndex].quantity += 1;
+        } else {
+            // If product is not in the cart, add it with quantity 1
+            cart.push({ product_id: productId, quantity: 1 });
+        }
+
+        // Save the updated cart to localStorage
+        localStorage.setItem('cart', JSON.stringify(cart));
+
+        // Redirect to cart.html
+        window.location.href = '../cart.html';
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+{
+    "users": [
+        {
+            "username": "john_doe123",
+            "email": "john.doe@example.com",
+            "password": "password123!",
+            "phone": "123-456-7890",
+            "address": "123 Elm Street, Springfield, IL"
+        },
+        {
+            "username": "jane_smith456",
+            "email": "jane.smith@example.com",
+            "password": "securePass456$",
+            "phone": "234-567-8901",
+            "address": "456 Oak Avenue, Metropolis, NY"
+        },
+        {
+            "username": "michael_brown789",
+            "email": "michael.brown@example.com",
+            "password": "strongPassword789#",
+            "phone": "345-678-9012",
+            "address": "789 Pine Road, Gotham, NJ"
+        },
+        {
+            "username": "emily_white111",
+            "email": "emily.white@example.com",
+            "password": "EmilyPass111@",
+            "phone": "456-789-0123",
+            "address": "101 Maple Lane, Star City, CA"
+        },
+        {
+            "username": "sam",
+            "email": "sam@gmail.com",
+            "password": "123",
+            "phone": "567-890-1234",
+            "address": "202 Birch Drive, Central City, CO"
+        },
+        {
+            "username": "chris_green222",
+            "email": "chris.green@example.com",
+            "password": "GreenPass222%",
+            "phone": "678-901-2345",
+            "address": "303 Cedar Street, Coast City, FL"
+        },
+        {
+            "username": "bharati",
+            "email": "SAMM9421@GMAIL.COM",
+            "password": "$2y$10$btIxW8PsDKWhPLiaxJD6l.wlhcnTwwxE8bvkqGLy5YBV\/ZKtKpKne",
+            "phone": "789-012-3456",
+            "address": "404 Fir Road, Keystone City, GA",
+            "avatar": "uploads\/5ff0601dcb6b788d7e7fdc49c32fae4d.jpg"
+        },
+        {
+            "username": "bharati",
+            "email": "SAMM94212@GMAIL.COM",
+            "password": "$2y$10$UjKYCzMu08IUEprGxcttGusl.e20XPS38NFBfHYJY.4XbvsoJO2MO",
+            "phone": "890-123-4567",
+            "address": "505 Walnut Avenue, Fawcett City, TX"
+        },
+        {
+            "username": "samy@gmail.com",
+            "email": "samaylohakare555@gmail.com",
+            "password": "123",
+            "phone": "901-234-5678",
+            "address": "606 Chestnut Blvd, Smallville, KS"
+        },
+        {
+            "username": "sdgb",
+            "email": "zfddscgv@gmail.com",
+            "password": "123",
+            "phone": "123-456-7890",
+            "address": "707 Cypress Lane, Riverdale, GA"
+        },
+        {
+            "username": "qwa",
+            "email": "a@gmail.com",
+            "password": "1",
+            "phone": "234-567-8901",
+            "address": "808 Dogwood Street, Hill Valley, CA"
+        },
+        {
+            "username": "sam",
+            "email": "b@gmail.com",
+            "password": "123",
+            "phone": "345-678-9012",
+            "address": "909 Redwood Drive, Emerald City, WA"
+        },
+        {
+            "username": "sam@gmail.com",
+            "email": "ab@gamil.com",
+            "password": "123",
+            "phone": "456-789-0123",
+            "address": "100 Maple Avenue, Midway City, OR"
+        },
+        {
+            "username": "samx@gmail.com",
+            "email": "qwqe@gmail.com",
+            "password": "123",
+            "phone": "567-890-1234",
+            "address": "200 Birch Way, Ivy Town, MA"
+        },
+        {
+            "username": "vdf@gmail.com",
+            "email": "vdf@gmail.com",
+            "password": "1",
+            "phone": "678-901-2345",
+            "address": "300 Cedar Ave, Gateway City, ME"
+        },
+        {
+            "username": "sam meshram",
+            "email": "samm9421@gmail.com",
+            "password": "9552",
+            "phone": "789-012-3456",
+            "address": "400 Fir St, New Carthage, LA"
+        },
+        {
+            "username": "samm942@gmail.com",
+            "email": "samm942@gmail.com",
+            "password": "1",
+            "phone": "890-123-4567",
+            "address": "500 Walnut Ave, St. Roch, VA"
+        },
+        {
+            "username": "alexandra",
+            "email": "alexandra@gmail.com",
+            "password": "1",
+            "phone": "901-234-5678",
+            "address": "600 Chestnut Blvd, Ivy City, MO"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="profilecard.css">
+</head>
+<body>
+    <body>
+        <body>
+            <div class="profile-container">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="avatar">
+                            <img src="https://via.placeholder.com/150" alt="User Avatar" id="avatarImage">
+                            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                            <button class="change-photo-btn" id="changePhotoBtn">Change Photo</button>
+                        </div>
+                        <h2 id="username" class="username">Loading...</h2>
+                    </div>
+                    <div class="profile-details">
+                        <p><strong>Email:</strong> <span id="userEmail">Loading...</span></p>
+                        <p><strong>Phone:</strong> <span id="userPhone">Not provided</span></p>
+                        <p><strong>Address:</strong> <span id="userAddress">Not provided</span></p>
+                        <p><strong>Username:</strong> <span id="userUsername">Not provided</span></p>
+                    </div>
+                    <button class="edit-btn" id="editBtn">Edit Profile</button>
+                    <div class="edit-form" id="editForm">
+                        <h3>Edit Profile</h3>
+                        <label for="email">Email</label>
+                        <input type="email" id="editEmail">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="editPhone">
+                        <label for="address">Address</label>
+                        <input type="text" id="editAddress">
+                        <label for="username">Username</label>
+                        <input type="text" id="editUsername">
+                        <button class="save-btn" id="saveBtn">Save Changes</button>
+                        <button class="cancel-btn" id="cancelBtn">Cancel</button>
+                    </div>
+                </div>
+            </div>
+            <div id="successMessage" style="display:none;"></div>
+
+        
+      <script src="profilecard.js"></script>
+</body>
+</html>
+
+<a href="uploads/5ff0601dcb6b788d7e7fdc49c32fae4d.jpg"></a>

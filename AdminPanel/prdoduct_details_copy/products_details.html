@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products_details.css">
+    <title>Product Details</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Product Details</h1>
+        <div id="product-list">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <!-- Modal for Editing Product -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeEditModal()">&times;</span>
+            <h2>Edit Product</h2>
+            <form id="edit-form">
+                <div class="form-group">
+                    <label for="edit-name">Name:</label>
+                    <input type="text" id="edit-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-price">Price:</label>
+                    <input type="text" id="edit-price" name="price" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-url">Upload New Image:</label>
+                    <input type="file" id="edit-url" name="url" accept=".png, .PNG">
+                </div>
+                <div class="form-group">
+                    <label for="edit-url2">Image Link:</label>
+                    <input type="text" id="edit-url2" name="url2">
+                </div>
+                <div class="form-group">
+                    <label for="edit-category">Category:</label>
+                    <select id="edit-category-existing">
+                        <!-- Options loaded dynamically -->
+                    </select>
+                    <input type="text" id="edit-category-new" placeholder="New Category">
+                </div>
+                <div class="form-group">
+                    <label for="edit-detail">Detail:</label>
+                    <textarea id="edit-detail" name="detail" rows="4" required></textarea>
+                </div>
+                <button type="submit">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="products_details.js"></script>
+</body>
+</html>

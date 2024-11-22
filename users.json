@@ -1,0 +1,98 @@
+{
+    "users": [
+        {
+            "username": "a",
+            "email": "a@gmail.com",
+            "password": "1",
+            "phone": "7",
+            "address": "nagpur",
+            "avatar": "uploads\/avatar_6739fbf09c45d6.43784188.webp"
+        },
+        {
+            "username": "sam",
+            "email": "b@gmail.com",
+            "password": "123",
+            "avatar": "uploads\/avatar_673b54563e4bc2.79845976.png"
+        },
+        {
+            "username": "sam@gmail.com",
+            "email": "ab@gamil.com",
+            "password": "123"
+        },
+        {
+            "username": "samx@gmail.com",
+            "email": "qwqe@gmail.com",
+            "password": "123"
+        },
+        {
+            "username": "vdf@gmail.com",
+            "email": "vdf@gmail.com",
+            "password": "1"
+        },
+        {
+            "username": "sam meshram",
+            "email": "samm9421@gmail.com",
+            "password": "9552",
+            "phone": "78",
+            "address": "uoy",
+            "avatar": "uploads\/avatar_6739ee11917986.18386920.webp"
+        },
+        {
+            "username": "samm942@gmail.com",
+            "email": "samm942@gmail.com",
+            "password": "1"
+        },
+        {
+            "username": "alexandra",
+            "email": "alexandra@gmail.com",
+            "password": "1"
+        },
+        {
+            "username": "yogendra meshram",
+            "email": "yogendra@gmail.com",
+            "password": "1",
+            "phone": "9552369566",
+            "address": "pune",
+            "avatar": "uploads\/avatar_67399ea4c50e38.47233476.jpg"
+        },
+        {
+            "username": "samay lohakare",
+            "email": "samay@gmail.com",
+            "password": "1",
+            "phone": "34353",
+            "address": "red light area"
+        },
+        {
+            "username": "chomu",
+            "email": "c@gmail.com",
+            "password": "0",
+            "avatar": "uploads\/avatar_673a0261a84922.71856927.jpg",
+            "phone": "75247",
+            "address": "srk"
+        },
+        {
+            "username": "Albert Einstein",
+            "email": "AlbertEinstein@gmail.com",
+            "password": "1",
+            "avatar": "uploads\/avatar_673f7f7be82922.78410687.jpeg",
+            "phone": "14031879-18041955",
+            "address": "Room in Princeton Hospital, 253 Witherspoon Street, Princeton, New Jersey, USA"
+        },
+        {
+            "username": "nikola tesla",
+            "email": "nikolaTesla@gmail.com",
+            "password": "1",
+            "avatar": "uploads\/avatar_673f1612437686.73566201.jpeg",
+            "phone": "10071856-07011943",
+            "address": " Room 3327 of the New Yorker Hotel, located in Manhattan, New York City"
+        },
+        {
+            "username": "Manya",
+            "email": "MarieCurie@gmail.com",
+            "password": "1",
+            "avatar": "uploads\/avatar_673eb564ea4a93.50165271.jpeg",
+            "phone": "07111867-04061934",
+            "address": "Sancellemoz Sanatorium, located in Passy, Haute-Savoie, France."
+        }
+    ]
+}

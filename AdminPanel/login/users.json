@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "UsernameAdmin": "samm94g21@gmail.com",
+            "EmailAdmin": "b.kb.ibb@gmailcom",
+            "password": "9552"
+        },
+        {
+            "UsernameAdmin": "samm941@gmail.com",
+            "EmailAdmin": "durgabavane322@gmail.com",
+            "password": "9552"
+        },
+        {
+            "UsernameAdmin": "sam meshram",
+            "EmailAdmin": "samm9421@gmail.com",
+            "password": "9552",
+            "avatar": "uploads\/avatar_673ef56353ff57.52565259.jpeg",
+            "phone": "9552369566",
+            "address": "nagpur",
+            "username": "j"
+        },
+        {
+            "UsernameAdmin": "my@gmail.com",
+            "EmailAdmin": "my@gmail.com",
+            "password": "9552"
+        }
+    ]
+}

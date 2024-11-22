@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Add Product</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="/frontend/index.html">
+                    QuickBite<br>Delivery
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/AdminPanel/index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="/AdminPanel/login/login.html" onclick="logout()">Log Out</a></li>
+                <li><a href="/frontend/cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="form-card">
+            <header>
+                <h1>Add a New Product</h1>
+                <p>Provide details about your product to add it to the inventory.</p>
+            </header>
+            <form id="productForm" enctype="multipart/form-data">
+                <!-- Product Name -->
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-tag"></i> Product Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter product name" required>
+                </div>
+
+                <!-- Price -->
+                <div class="form-group">
+                    <label for="price"><i class="fas fa-dollar-sign"></i> Price</label>
+                    <input type="number" id="price" name="price" placeholder="Enter product price" min="0" required>
+                </div>
+
+                <!-- Category -->
+                <div class="form-group">
+                    <label for="category"><i class="fas fa-list"></i> Category</label>
+                    <select id="category" name="category" required>
+                        <option value="" disabled selected>Select a category</option>
+                        <option value="newCategoryOption">Add New Category</option>
+                        <!-- Categories will populate dynamically -->
+                    </select>
+                    <input type="text" id="newCategory" name="newCategory" placeholder="Enter new category" class="hidden">
+                </div>
+                
+
+                <!-- Image Upload -->
+                <div class="form-group">
+                    <label for="image"><i class="fas fa-image"></i> Upload Image(PNG)</label>
+                    <input type="file" id="image" name="image" accept="image/*" required>
+                </div>
+
+                <!-- External Image URL -->
+                <div class="form-group">
+                    <label for="url2"><i class="fas fa-link"></i> External Image URL</label>
+                    <input type="url" id="url2" name="url2" placeholder="Enter external image URL">
+                </div>
+
+                 <!-- Product Detail -->
+                 <div class="form-group">
+                    <label for="detail"><i class="fas fa-tag"></i> Product Detail</label>
+                    <input type="text" id="detail" name="detail" placeholder="Enter product detail" required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit">
+                    <i class="fas fa-plus-circle"></i> Add Product
+                </button>
+                <p id="responseMessage"></p>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

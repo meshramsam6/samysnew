@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout_style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo_food_delivery1.png" alt="Brand Logo"> <!-- Replace with your logo -->
+                    QuickBite<br>Delivery
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/frontend/index.html">Home</a></li>
+                <li><a href="/frontend/eatery-master/index.html">About Us</a></li>
+                <li><a href="/login.html" onclick="logout()">Log Out</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+
+
+
+    <div class="container">
+        <div class="checkoutLayout">
+            <div class="returnCart">
+                <a href="/">Keep Shopping</a>
+                <h1>List Product in Cart</h1>
+                <div class="list"></div> <!-- Cart Items will display here -->
+            </div>
+
+            <div class="right">
+                <h1>Checkout</h1>
+                <div class="form">
+                    <div class="group">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" required>
+                    </div>
+                    <div class="group">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address" required>
+                    </div>
+                    <div class="group">
+                        <label for="country">Country</label>
+                        <select name="country" id="country" required>
+                            <option value="afghanistan">Afghanistan</option>
+                            <option value="albania">Albania</option>
+                            <option value="algeria">Algeria</option>
+                            <option value="andorra">Andorra</option>
+                            <option value="angola">Angola</option>
+                            <option value="antigua-and-barbuda">Antigua and Barbuda</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="armenia">Armenia</option>
+                            <option value="australia">Australia</option>
+                            <option value="austria">Austria</option>
+                            <option value="azerbaijan">Azerbaijan</option>
+                            <option value="bahamas">Bahamas</option>
+                            <option value="bahrain">Bahrain</option>
+                            <option value="bangladesh">Bangladesh</option>
+                            <option value="barbados">Barbados</option>
+                            <option value="belarus">Belarus</option>
+                            <option value="belgium">Belgium</option>
+                            <option value="belize">Belize</option>
+                            <option value="benin">Benin</option>
+                            <option value="bhutan">Bhutan</option>
+                            <option value="bolivia">Bolivia</option>
+                            <option value="bosnia-and-herzegovina">Bosnia and Herzegovina</option>
+                            <option value="botswana">Botswana</option>
+                            <option value="brazil">Brazil</option>
+                            <option value="brunei">Brunei</option>
+                            <option value="bulgaria">Bulgaria</option>
+                            <option value="burkina-faso">Burkina Faso</option>
+                            <option value="burundi">Burundi</option>
+                            <option value="cabo-verde">Cabo Verde</option>
+                            <option value="cambodia">Cambodia</option>
+                            <option value="cameroon">Cameroon</option>
+                            <option value="canada">Canada</option>
+                            <option value="central-african-republic">Central African Republic</option>
+                            <option value="chad">Chad</option>
+                            <option value="chile">Chile</option>
+                            <option value="china">China</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="comoros">Comoros</option>
+                            <option value="congo-democratic-republic">Congo (Democratic Republic)</option>
+                            <option value="congo-republic">Congo (Republic)</option>
+                            <option value="costa-rica">Costa Rica</option>
+                            <option value="croatia">Croatia</option>
+                            <option value="cuba">Cuba</option>
+                            <option value="cyprus">Cyprus</option>
+                            <option value="czech-republic">Czech Republic</option>
+                            <option value="denmark">Denmark</option>
+                            <option value="djibouti">Djibouti</option>
+                            <option value="dominica">Dominica</option>
+                            <option value="dominican-republic">Dominican Republic</option>
+                            <option value="ecuador">Ecuador</option>
+                            <option value="egypt">Egypt</option>
+                            <option value="el-salvador">El Salvador</option>
+                            <option value="equatorial-guinea">Equatorial Guinea</option>
+                            <option value="eritrea">Eritrea</option>
+                            <option value="estonia">Estonia</option>
+                            <option value="eswatini">Eswatini</option>
+                            <option value="ethiopia">Ethiopia</option>
+                            <option value="fiji">Fiji</option>
+                            <option value="finland">Finland</option>
+                            <option value="france">France</option>
+                            <option value="gabon">Gabon</option>
+                            <option value="gambia">Gambia</option>
+                            <option value="georgia">Georgia</option>
+                            <option value="germany">Germany</option>
+                            <option value="ghana">Ghana</option>
+                            <option value="greece">Greece</option>
+                            <option value="grenada">Grenada</option>
+                            <option value="guatemala">Guatemala</option>
+                            <option value="guinea">Guinea</option>
+                            <option value="guinea-bissau">Guinea-Bissau</option>
+                            <option value="guyana">Guyana</option>
+                            <option value="haiti">Haiti</option>
+                            <option value="honduras">Honduras</option>
+                            <option value="hungary">Hungary</option>
+                            <option value="iceland">Iceland</option>
+                            <option value="india">India</option>
+                            <option value="indonesia">Indonesia</option>
+                            <option value="iran">Iran</option>
+                            <option value="iraq">Iraq</option>
+                            <option value="ireland">Ireland</option>
+                            <option value="israel">Israel</option>
+                            <option value="italy">Italy</option>
+                            <option value="jamaica">Jamaica</option>
+                            <option value="japan">Japan</option>
+                            <option value="jordan">Jordan</option>
+                            <option value="kazakhstan">Kazakhstan</option>
+                            <option value="kenya">Kenya</option>
+                            <option value="kiribati">Kiribati</option>
+                            <option value="korea-north">Korea (North)</option>
+                            <option value="korea-south">Korea (South)</option>
+                            <option value="kosovo">Kosovo</option>
+                            <option value="kuwait">Kuwait</option>
+                            <option value="kyrgyzstan">Kyrgyzstan</option>
+                            <option value="laos">Laos</option>
+                            <option value="latvia">Latvia</option>
+                            <option value="lebanon">Lebanon</option>
+                            <option value="lesotho">Lesotho</option>
+                            <option value="liberia">Liberia</option>
+                            <option value="libya">Libya</option>
+                            <option value="liechtenstein">Liechtenstein</option>
+                            <option value="lithuania">Lithuania</option>
+                            <option value="luxembourg">Luxembourg</option>
+                            <option value="madagascar">Madagascar</option>
+                            <option value="malawi">Malawi</option>
+                            <option value="malaysia">Malaysia</option>
+                            <option value="maldives">Maldives</option>
+                            <option value="mali">Mali</option>
+                            <option value="malta">Malta</option>
+                            <option value="marshall-islands">Marshall Islands</option>
+                            <option value="mauritania">Mauritania</option>
+                            <option value="mauritius">Mauritius</option>
+                            <option value="mexico">Mexico</option>
+                            <option value="micronesia">Micronesia</option>
+                            <option value="moldova">Moldova</option>
+                            <option value="monaco">Monaco</option>
+                            <option value="mongolia">Mongolia</option>
+                            <option value="montenegro">Montenegro</option>
+                            <option value="morocco">Morocco</option>
+                            <option value="mozambique">Mozambique</option>
+                            <option value="myanmar">Myanmar</option>
+                            <option value="namibia">Namibia</option>
+                            <option value="nauru">Nauru</option>
+                            <option value="nepal">Nepal</option>
+                            <option value="netherlands">Netherlands</option>
+                            <option value="new-zealand">New Zealand</option>
+                            <option value="nicaragua">Nicaragua</option>
+                            <option value="niger">Niger</option>
+                            <option value="nigeria">Nigeria</option>
+                            <option value="north-macedonia">North Macedonia</option>
+                            <option value="norway">Norway</option>
+                            <option value="oman">Oman</option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="palau">Palau</option>
+                            <option value="palestine">Palestine</option>
+                            <option value="panama">Panama</option>
+                            <option value="papua-new-guinea">Papua New Guinea</option>
+                            <option value="paraguay">Paraguay</option>
+                            <option value="peru">Peru</option>
+                            <option value="philippines">Philippines</option>
+                            <option value="poland">Poland</option>
+                            <option value="portugal">Portugal</option>
+                            <option value="qatar">Qatar</option>
+                            <option value="romania">Romania</option>
+                            <option value="russia">Russia</option>
+                            <option value="rwanda">Rwanda</option>
+                            <option value="saint-kitts-and-nevis">Saint Kitts and Nevis</option>
+                            <option value="saint-lucia">Saint Lucia</option>
+                            <option value="saint-vincent-and-the-grenadines">Saint Vincent and the Grenadines</option>
+                            <option value="samoa">Samoa</option>
+                            <option value="san-marino">San Marino</option>
+                            <option value="sao-tome-and-principe">Sao Tome and Principe</option>
+                            <option value="saudi-arabia">Saudi Arabia</option>
+                            <option value="senegal">Senegal</option>
+                            <option value="serbia">Serbia</option>
+                            <option value="seychelles">Seychelles</option>
+                            <option value="sierra-leone">Sierra Leone</option>
+                            <option value="singapore">Singapore</option>
+                            <option value="slovakia">Slovakia</option>
+                            <option value="slovenia">Slovenia</option>
+                            <option value="solomon-islands">Solomon Islands</option>
+                            <option value="somalia">Somalia</option>
+                            <option value="south-africa">South Africa</option>
+                            <option value="south-sudan">South Sudan</option>
+                            <option value="spain">Spain</option>
+                            <option value="sri-lanka">Sri Lanka</option>
+                            <option value="sudan">Sudan</option>
+                            <option value="suriname">Suriname</option>
+                            <option value="sweden">Sweden</option>
+                            <option value="switzerland">Switzerland</option>
+                            <option value="syria">Syria</option>
+                            <option value="taiwan">Taiwan</option>
+                            <option value="tajikistan">Tajikistan</option>
+                            <option value="tanzania">Tanzania</option>
+                            <option value="thailand">Thailand</option>
+                            <option value="timor-leste">Timor-Leste</option>
+                            <option value="togo">Togo</option>
+                            <option value="tonga">Tonga</option>
+                            <option value="trinidad-and-tobago">Trinidad and Tobago</option>
+                            <option value="tunisia">Tunisia</option>
+                            <option value="turkey">Turkey</option>
+                            <option value="turkmenistan">Turkmenistan</option>
+                            <option value="tuvalu">Tuvalu</option>
+                            <option value="uganda">Uganda</option>
+                            <option value="ukraine">Ukraine</option>
+                            <option value="united-arab-emirates">United Arab Emirates</option>
+                            <option value="united-kingdom">United Kingdom</option>
+                            <option value="united-states">United States</option>
+                            <option value="uruguay">Uruguay</option>
+                            <option value="uzbekistan">Uzbekistan</option>
+                            <option value="vanuatu">Vanuatu</option>
+                            <option value="vatican-city">Vatican City</option>
+                            <option value="venezuela">Venezuela</option>
+                            <option value="vietnam">Vietnam</option>
+                            <option value="yemen">Yemen</option>
+                            <option value="zambia">Zambia</option>
+                            <option value="zimbabwe">Zimbabwe</option>
+                        </select>
+                    </div>
+                    
+                     <!-- City Dropdown -->
+        <div class="group">
+            <label for="city">City</label>
+            <select name="city" id="city" required>
+                <option value="" disabled selected>Select a city</option>
+            </select>
+        </div>
+                </div>
+                <div class="return">
+                    <div class="row">
+                        <div>Total Quantity</div>
+                        <div class="totalQuantity">0</div>
+                    </div>
+                    <div class="row">
+                        <div>Total Price</div>
+                        <div class="totalPrice">₹0</div>
+                    </div>
+                </div>
+                <button class="buttonCheckout">CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+    <a href="/frontend/jsonfiles/countries.json"></a>
+    <script>
+
+
+
+        // JavaScript to handle dynamic city selection
+        let countryToCities = {};
+
+        // Fetch the data from the JSON file
+        fetch('/frontend/jsonfiles/countries.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                countryToCities = data;
+        
+                // Example: Logging all countries and their cities
+                for (const [country, cities] of Object.entries(countryToCities)) {
+                    console.log(`Country: ${country}`);
+                    console.log(`Cities: ${cities.join(', ')}`);
+                }
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            })
+
+const countryDropdown = document.getElementById('country');
+const cityDropdown = document.getElementById('city');
+
+// Event listener for country change
+countryDropdown.addEventListener('change', function () {
+    const selectedCountry = this.value;
+    const cities = countryToCities[selectedCountry] || [];
+    
+    // Clear the city dropdown
+    cityDropdown.innerHTML = '<option value="" disabled selected>Select a city</option>';
+    
+    // Populate cities based on the selected country
+    cities.forEach(city => {
+        const option = document.createElement('option');
+        option.value = city.toLowerCase().replace(/\s/g, '-');
+        option.textContent = city;
+        cityDropdown.appendChild(option);
+    });
+
+    // Fetch and log the selected country and city
+    logSelections();
+});
+
+// Event listener for city change
+function fetchSelectedValues() {
+    const country = document.querySelector('#country').value;
+    const city = document.querySelector('#city').value;
+}
+
+
+
+
+
+
+        window.onload = function () {
+            // Check if the user is logged in
+            if (localStorage.getItem('isLoggedIn') !== 'true') {
+                // If not logged in, redirect to the login page
+                window.location.href = '/login.html';
+            }
+        };
+        
+        function logout() {
+            // Clear session data from localStorage
+            localStorage.removeItem('isLoggedIn');
+            localStorage.removeItem('username');
+            localStorage.removeItem('email');
+            
+            // Alert the user about logout
+            alert('You have been logged out.');
+            
+            // Redirect to login page
+            window.location.href = '/login.html';
+            
+            // Prevent back navigation after logout
+            history.pushState(null, null, location.href); // Add current state to history
+            history.back(); // Go back to the previous page
+            history.forward(); // Go forward to the login page
+        }
+        // Get the cart data from localStorage
+        let cart = JSON.parse(localStorage.getItem('checkoutCart')) || [];
+        let products = [];
+    
+        // Fetch the product data
+        fetch('/frontend/data/products.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data.products;
+                displayCartItems();
+            })
+            .catch(error => {
+                console.error('Error fetching product data:', error);
+                alert('There was an error loading the products. Please try again later.');
+            });
+    
+        // Function to display cart items in the checkout page
+        const displayCartItems = () => {
+            let list = document.querySelector('.list');
+            list.innerHTML = ''; // Clear any existing content
+    
+            if (cart.length > 0) {
+                let totalQuantity = 0;
+                let totalPrice = 0;
+                cart.forEach(item => {
+                    // Find product from the products array
+                    let product = products.find(prod => prod.id == item.id);
+                    if (product) {
+                        // Calculate total for this item
+                        let itemTotal = product.price * item.quantity;
+                        totalQuantity += item.quantity;
+                        totalPrice += itemTotal;
+    
+                        // Make sure the image URL exists and is correct
+                        let imageUrl = product.url || '/frontend/images/default-image.png'; // Fallback image
+    
+                        // Create a new item element for display
+                        let newItem = document.createElement('div');
+                        newItem.classList.add('item');
+                        newItem.innerHTML = `
+                            <img src="${imageUrl}" alt="${product.name}" />
+                            <div class="info">
+                                <div class="name">${product.name}</div>
+                                <div class="price">₹${product.price} per item</div>
+                            </div>
+                            <div class="quantity">${item.quantity}</div>
+                            <div class="returnPrice">₹${itemTotal.toFixed(2)}</div>
+                        `;
+                        list.appendChild(newItem);
+                    }
+                });
+    
+                // Update total quantity and price
+                document.querySelector('.totalQuantity').textContent = totalQuantity;
+                document.querySelector('.totalPrice').textContent = `₹${totalPrice.toFixed(2)}`;
+            } else {
+                list.innerHTML = '<p>No items in the cart.</p>';
+            }
+        };
+    
+        // Checkout button click event
+        document.querySelector('.buttonCheckout').addEventListener('click', function () {
+            let totalPrice = document.querySelector('.totalPrice').textContent.replace('₹', '').trim();
+    
+            // Check if the cart is not empty
+            if (totalPrice > 0) {
+                // Get user details
+                const name = document.querySelector('#name').value.trim();
+                const phone = document.querySelector('#phone').value.trim();
+                const address = document.querySelector('#address').value.trim();
+                const country = document.querySelector('#country').value;
+                const city = document.querySelector('#city').value;
+    
+                // Retrieve the email directly from localStorage
+                let email = 'default@example.com'; // Fallback email if not found
+                const storedEmail = localStorage.getItem('email');
+                if (storedEmail) {
+                    email = storedEmail; // Use the value from localStorage
+                }
+    
+                // Validate form inputs
+                if (name && phone && address && country && city) {
+                    // Prepare data to send to the backend
+                    const checkoutData = {
+                        user: {
+                            name: name,
+                            phone: phone,
+                            address: address,
+                            country: country,
+                            city: city,
+                            email: email // Use the email retrieved from localStorage
+                        },
+                        cartItems: cart.map(item => {
+                            
+                            // Find the product using the product_id
+                            let product = products.find(prod => prod.id == item.id);
+                            let productPrice = product ? product.price : 0;
+                            let totalProductPrice = productPrice * item.quantity;
+                            return {
+                                product_id: item.id,
+                                product_name: product ? product.name : '', // Store product name
+                                price: item.price,
+                                quantity: item.quantity,
+                                total_product_price: totalProductPrice,
+                            };
+                        }),
+                        totalQuantity: document.querySelector('.totalQuantity').textContent,
+                        totalPrice: totalPrice
+                    };
+    
+                    console.log('Sending checkout data:', checkoutData); // Debugging output
+    
+                    // Send data to save_checkout.php via POST request
+                    fetch('save_checkout.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(checkoutData)
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log('Response from PHP:', data); // Debugging output
+                        if (data.success) {
+                            alert('Checkout Successful!');
+                            // Optionally, clear the cart after successful checkout
+                            localStorage.removeItem('checkoutCart');
+                            window.location.href = `payment-gateway.html?amount=${encodeURIComponent(totalPrice)}`;
+                        } else {
+                            alert('There was an error with the checkout process. Please try again.');
+                        }
+                    })
+                    .catch(error => {
+                        alert('Failed to process the checkout. Please try again.');
+                        console.error('Error:', error);
+                    });
+                } else {
+                    alert('Please fill in all the required fields before proceeding to checkout.');
+                }
+            } else {
+                alert('Your cart is empty. Please add items to the cart before checking out.');
+            }
+        });
+    </script>
+    
+    <script src="check.js"></script>
+</body>
+
+</html>

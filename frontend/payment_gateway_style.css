@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+background: url('../images/bgi.jpeg') no-repeat center center fixed;
+    /* Add your background image URL here */
+    background-size: cover;
+    /* Cover the entire page */
+    margin: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.payment-details {
+    text-align: center;
+}
+
+.total-amount {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.qr-code {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.upi-id {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Global Variables */
+:root {
+    --primary-color: #49D8B9; /* Vibrant teal */
+    --secondary-color: #E8BC0E; /* Vibrant gold */
+    --bg-gradient: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    --nav-height: 80px;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    --border-radius: 50px; /* Curved edges */
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-gradient);
+    backdrop-filter: blur(15px);
+    border-radius: 0 0 50px 50px; /* Curved bottom corners */
+    box-shadow: var(--shadow);
+    transition: all 0.4s ease;
+}
+
+/* Add padding-top to main content to account for navbar height */
+body {
+    margin: 0;
+    padding-top: var(--nav-height); /* Ensure content starts below navbar */
+}
+
+/* Navbar Container */
+.navbar-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo a img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo a:hover {
+    transform: rotate(10deg) scale(1.2);
+    color: #fff;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links li {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Base Link Styling */
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #000;
+    background: var(--hover-gradient);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Elegant Hover Effect - No Rectangular Shape */
+.nav-links li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 5px;
+    background: var(--hover-gradient);
+    transition: all 0.4s ease;
+    transform: translateX(-50%) rotate(-45deg); /* Diagonal underline effect */
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.nav-links li:hover::after {
+    width: 100%;
+    transform: translateX(-50%) rotate(0deg); /* Reset to horizontal */
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: var(--nav-height);
+        right: -100%;
+        width: 75%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        transition: right 0.4s ease;
+        z-index: 999;
+        border-radius: 30px 0 0 30px; /* Curved left side */
+    }
+
+    .nav-links.open {
+        right: 0;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translateY(8px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-8px);
+    }
+}
+
+/* Example Content Below Navbar */
+.main-content {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}

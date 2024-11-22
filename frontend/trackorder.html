@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Your Order</title>
+    <link rel="stylesheet" href="trackorder.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Track Your Order</h1>
+        </header>
+        <main>
+            <section class="tracking-details">
+                <h2>Order Details</h2>
+                <div id="order-info">
+                    <div class="order-image-container">
+                        <img class="order-image" src="images/Tiramisu.png" alt="Product Image">
+                    </div>
+                    <div class="order-details">
+                        <p>Product ID: <span>10</span></p>
+                        <p>Title: <span>Tiramisu</span></p>
+                        <p>Price: <span>$15552.00</span></p>
+                        <p>Quantity: <span>2</span></p>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <div class="status-steps">
+                    <span class="step active">Ordered</span>
+                    <span class="step">Out for Delivery</span>
+                    <span class="step">Delivered</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="trackorder.js"></script>
+</body>
+
+</html>

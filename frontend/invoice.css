@@ -1,0 +1,315 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient Background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-out;
+    backdrop-filter: blur(10px); /* Smooth blur effect */
+    text-align: center;
+    transform: translateY(-20px);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.container:hover {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #ffd700; /* Gold color for the header */
+    text-shadow: 0 4px 12px rgba(255, 215, 0, 0.9);
+    animation: glow 2s infinite alternate ease-in-out; /* Glowing effect */
+}
+
+/* Invoice Details Section */
+#invoice-details {
+    background: linear-gradient(135deg, #43c6ac, #191654); /* Vibrant gradient */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    transform: scale(0.95);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#invoice-details:hover {
+    transform: scale(1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons Styling */
+button {
+    background: linear-gradient(90deg, #ff512f, #dd2476); /* Vibrant pink gradient */
+    border: none;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(221, 36, 118, 0.6);
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #dd2476, #ff512f); /* Gradient reverse on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(221, 36, 118, 0.8);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Ripple Effect for Buttons */
+button .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(0);
+    animation: ripple-animation 0.6s linear;
+}
+
+@keyframes ripple-animation {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffb400;
+    }
+    to {
+        text-shadow: 0 0 15px #ffdf00, 0 0 25px #ffd700, 0 0 40px #ffcc00;
+    }
+}
+
+
+/* Global Variables */
+:root {
+    --primary-color: #49D8B9; /* Vibrant teal */
+    --secondary-color: #E8BC0E; /* Vibrant gold */
+    --bg-gradient: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    --nav-height: 80px;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    --border-radius: 50px; /* Curved edges */
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-gradient);
+    backdrop-filter: blur(15px);
+    border-radius: 0 0 50px 50px; /* Curved bottom corners */
+    box-shadow: var(--shadow);
+    transition: all 0.4s ease;
+}
+
+/* Add padding-top to main content to account for navbar height */
+body {
+    margin: 0;
+    padding-top: var(--nav-height); /* Ensure content starts below navbar */
+}
+
+/* Navbar Container */
+.navbar-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo a img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo a:hover {
+    transform: rotate(10deg) scale(1.2);
+    color: #fff;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links li {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Base Link Styling */
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #000;
+    background: var(--hover-gradient);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Elegant Hover Effect - No Rectangular Shape */
+.nav-links li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 5px;
+    background: var(--hover-gradient);
+    transition: all 0.4s ease;
+    transform: translateX(-50%) rotate(-45deg); /* Diagonal underline effect */
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.nav-links li:hover::after {
+    width: 100%;
+    transform: translateX(-50%) rotate(0deg); /* Reset to horizontal */
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: var(--nav-height);
+        right: -100%;
+        width: 75%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        transition: right 0.4s ease;
+        z-index: 999;
+        border-radius: 30px 0 0 30px; /* Curved left side */
+    }
+
+    .nav-links.open {
+        right: 0;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translateY(8px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-8px);
+    }
+}
+
+/* Example Content Below Navbar */
+.main-content {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>User Details</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="row d-flex container">
+                <a href="index.html" class="logo d-flex">
+                    <img src="./images/logo_food_delivery1.png" alt="" />
+                </a>
+                <div class="col d-flex">
+                    <a class="btn">User Details</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section user-details">
+        <div class="container">
+            <h2>Welcome, <span id="usernameDisplay"></span>!</h2>
+            <p>Email: <span id="emailDisplay"></span></p>
+        </div>
+    </section>
+
+    <script>
+
+        const username = sessionStorage.getItem("username");
+        const email = sessionStorage.getItem("email");
+
+        // Display user details
+        document.getElementById("usernameDisplay").textContent = username;
+        document.getElementById("emailDisplay").textContent = email;
+
+      
+        if (!username || !email) {
+            alert("Please log in first.");
+            window.location.href = "index.html";
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+  const username = localStorage.getItem('username');
+  if (username) {
+    console.log(`Welcome back, ${username}!`);
+    const welcomeMessage = document.querySelector('#welcomeMessage');
+    if (welcomeMessage) {
+      welcomeMessage.textContent = `Welcome, ${username}!`;
+    }
+  }
+});
+    </script>
+</body>
+
+</html>

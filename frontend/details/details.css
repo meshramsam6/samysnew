@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    color: #333;
+}
+
+.product-container {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.shape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 228, 181, 0.4);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.shape.one {
+    top: -50px;
+    left: -50px;
+}
+
+.shape.two {
+    bottom: -50px;
+    right: -50px;
+}
+
+.product-image {
+    flex: 1;
+    background: linear-gradient(135deg, #ffceac, #ff9c6e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.product-image img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product-image:hover img {
+    transform: scale(1.7) rotate(-3deg);
+}
+
+.product-details {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-title {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.product-category {
+    font-size: 0.9rem;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.product-detail {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.product-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5cb85c;
+    margin-bottom: 20px;
+}
+
+.buy-now {
+    background: #ff6f61;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    align-self: flex-start;
+}
+
+.buy-now:hover {
+    background-color: #e65748;
+    transform: translateY(-3px);
+}
+
+.buy-now:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+    }
+
+    .product-details {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .buy-now {
+        align-self: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global Variables */
+:root {
+    --primary-color: #49D8B9; /* Vibrant teal */
+    --secondary-color: #E8BC0E; /* Vibrant gold */
+    --bg-gradient: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    --nav-height: 80px;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    --border-radius: 50px; /* Curved edges */
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-gradient);
+    backdrop-filter: blur(15px);
+    border-radius: 0 0 50px 50px; /* Curved bottom corners */
+    box-shadow: var(--shadow);
+    transition: all 0.4s ease;
+}
+
+/* Add padding-top to main content to account for navbar height */
+body {
+    margin: 0;
+    padding-top: var(--nav-height); /* Ensure content starts below navbar */
+}
+
+/* Navbar Container */
+.navbar-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo a img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo a:hover {
+    transform: rotate(10deg) scale(1.2);
+    color: #fff;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links li {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Base Link Styling */
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #000;
+    background: var(--hover-gradient);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Elegant Hover Effect - No Rectangular Shape */
+.nav-links li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 5px;
+    background: var(--hover-gradient);
+    transition: all 0.4s ease;
+    transform: translateX(-50%) rotate(-45deg); /* Diagonal underline effect */
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.nav-links li:hover::after {
+    width: 100%;
+    transform: translateX(-50%) rotate(0deg); /* Reset to horizontal */
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: var(--nav-height);
+        right: -100%;
+        width: 75%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        transition: right 0.4s ease;
+        z-index: 999;
+        border-radius: 30px 0 0 30px; /* Curved left side */
+    }
+
+    .nav-links.open {
+        right: 0;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translateY(8px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-8px);
+    }
+}
+
+/* Example Content Below Navbar */
+.main-content {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}

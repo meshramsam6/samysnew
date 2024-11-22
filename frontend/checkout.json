@@ -1,0 +1,346 @@
+{
+    "MarieCurie@gmail.com": [
+        {
+            "user": {
+                "name": "Marie Curie",
+                "phone": "07111867-04061934",
+                "address": "Sancellemoz Sanatorium, located in Passy, Haute-Savoie, France.",
+                "country": "france",
+                "city": "Passy",
+                "email": "MarieCurie@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 2,
+                    "product_name": "Burger Patty Recipe",
+                    "price": "353.00",
+                    "quantity": 1,
+                    "total_product_price": 353
+                },
+                {
+                    "product_id": 18,
+                    "product_name": "Caesar Salad",
+                    "price": "1800.00",
+                    "quantity": 1,
+                    "total_product_price": 1800
+                },
+                {
+                    "product_id": 27,
+                    "product_name": "Greek Salad",
+                    "price": "1300.00",
+                    "quantity": 1,
+                    "total_product_price": 1300
+                },
+                {
+                    "product_id": 31,
+                    "product_name": "Sushi",
+                    "price": "3000.00",
+                    "quantity": 1,
+                    "total_product_price": 3000
+                },
+                {
+                    "product_id": 30,
+                    "product_name": "Burrito",
+                    "price": "2800.00",
+                    "quantity": 1,
+                    "total_product_price": 2800
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "9253.00",
+            "timestamp": "2024-11-21 05:08:42"
+        },
+        {
+            "user": {
+                "name": "Marie Curie",
+                "phone": "07111867-04061934",
+                "address": "Sancellemoz Sanatorium, located in Passy, Haute-Savoie, France.",
+                "country": "france",
+                "city": "auvergne-rh\u00f4ne-alpes",
+                "email": "MarieCurie@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 15,
+                    "product_name": "Hawaiian Pizza",
+                    "price": "15552.00",
+                    "quantity": 2,
+                    "total_product_price": 31104
+                },
+                {
+                    "product_id": 28,
+                    "product_name": "Pancakes",
+                    "price": "1200.00",
+                    "quantity": 1,
+                    "total_product_price": 1200
+                },
+                {
+                    "product_id": 26,
+                    "product_name": "Egg Benedict",
+                    "price": "1800.00",
+                    "quantity": 1,
+                    "total_product_price": 1800
+                },
+                {
+                    "product_id": 36,
+                    "product_name": "Lobster Tail",
+                    "price": "6000.00",
+                    "quantity": 1,
+                    "total_product_price": 6000
+                },
+                {
+                    "product_id": 44,
+                    "product_name": "Pavlova",
+                    "price": "1800.00",
+                    "quantity": 1,
+                    "total_product_price": 1800
+                }
+            ],
+            "totalQuantity": "6",
+            "totalPrice": "41904.00",
+            "timestamp": "2024-11-21 09:04:52"
+        },
+        {
+            "user": {
+                "name": "Marie Curie",
+                "phone": "07111867-04061934",
+                "address": "Sancellemoz Sanatorium, located in Passy, Haute-Savoie, France.",
+                "country": "france",
+                "city": "auvergne-rh\u00f4ne-alpes",
+                "email": "MarieCurie@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 15,
+                    "product_name": "Hawaiian Pizza",
+                    "price": "15552.00",
+                    "quantity": 2,
+                    "total_product_price": 31104
+                },
+                {
+                    "product_id": 28,
+                    "product_name": "Pancakes",
+                    "price": "1200.00",
+                    "quantity": 1,
+                    "total_product_price": 1200
+                },
+                {
+                    "product_id": 26,
+                    "product_name": "Egg Benedict",
+                    "price": "1800.00",
+                    "quantity": 1,
+                    "total_product_price": 1800
+                },
+                {
+                    "product_id": 36,
+                    "product_name": "Lobster Tail",
+                    "price": "6000.00",
+                    "quantity": 1,
+                    "total_product_price": 6000
+                },
+                {
+                    "product_id": 44,
+                    "product_name": "Pavlova",
+                    "price": "1800.00",
+                    "quantity": 1,
+                    "total_product_price": 1800
+                },
+                {
+                    "product_id": 20,
+                    "product_name": "Grilled Salmon",
+                    "price": "3500.00",
+                    "quantity": 3,
+                    "total_product_price": 10500
+                }
+            ],
+            "totalQuantity": "9",
+            "totalPrice": "52404.00",
+            "timestamp": "2024-11-21 09:06:21"
+        },
+        {
+            "user": {
+                "name": "Marie Curie",
+                "phone": "07111867-04061934",
+                "address": "Sancellemoz Sanatorium, located in Passy, Haute-Savoie, France.",
+                "country": "france",
+                "city": "auvergne-rh\u00f4ne-alpes",
+                "email": "MarieCurie@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 84,
+                    "product_name": "Empanada",
+                    "price": "49",
+                    "quantity": 1,
+                    "total_product_price": 49
+                }
+            ],
+            "totalQuantity": "1",
+            "totalPrice": "49.00",
+            "timestamp": "2024-11-22 10:07:56"
+        },
+        {
+            "user": {
+                "name": "Marie Curie",
+                "phone": "07111867-04061934",
+                "address": "Sancellemoz Sanatorium, located in Passy, Haute-Savoie, France.",
+                "country": "france",
+                "city": "auvergne-rh\u00f4ne-alpes",
+                "email": "MarieCurie@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 84,
+                    "product_name": "Empanada",
+                    "price": "49",
+                    "quantity": 1,
+                    "total_product_price": 49
+                }
+            ],
+            "totalQuantity": "1",
+            "totalPrice": "49.00",
+            "timestamp": "2024-11-22 10:09:26"
+        },
+        {
+            "user": {
+                "name": "Marie Curie",
+                "phone": "07111867-04061934",
+                "address": "Sancellemoz Sanatorium, located in Passy, Haute-Savoie, France.",
+                "country": "france",
+                "city": "auvergne-rh\u00f4ne-alpes",
+                "email": "MarieCurie@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 84,
+                    "product_name": "Empanada",
+                    "price": "49",
+                    "quantity": 1,
+                    "total_product_price": 49
+                }
+            ],
+            "totalQuantity": "1",
+            "totalPrice": "49.00",
+            "timestamp": "2024-11-22 10:14:22"
+        },
+        {
+            "user": {
+                "name": "Marie Curie",
+                "phone": "07111867-04061934",
+                "address": "Sancellemoz Sanatorium, located in Passy, Haute-Savoie, France.",
+                "country": "france",
+                "city": "auvergne-rh\u00f4ne-alpes",
+                "email": "MarieCurie@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 84,
+                    "product_name": "Empanada",
+                    "price": "49",
+                    "quantity": 1,
+                    "total_product_price": 49
+                }
+            ],
+            "totalQuantity": "1",
+            "totalPrice": "49.00",
+            "timestamp": "2024-11-22 14:43:21"
+        }
+    ],
+    "AlbertEinstein@gmail.com": [
+        {
+            "user": {
+                "name": "albert einstain",
+                "phone": "14031879-18041955",
+                "address": "Princeton Hospital, Princeton, New Jersey, USA.",
+                "country": "united-states",
+                "city": "new-jersey",
+                "email": "AlbertEinstein@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 2,
+                    "product_name": "Burger Patty Recipe",
+                    "price": "353.00",
+                    "quantity": 1,
+                    "total_product_price": 353
+                },
+                {
+                    "product_id": 18,
+                    "product_name": "Caesar Salad",
+                    "price": "1800.00",
+                    "quantity": 1,
+                    "total_product_price": 1800
+                },
+                {
+                    "product_id": 27,
+                    "product_name": "Greek Salad",
+                    "price": "1300.00",
+                    "quantity": 1,
+                    "total_product_price": 1300
+                },
+                {
+                    "product_id": 31,
+                    "product_name": "Sushi",
+                    "price": "3000.00",
+                    "quantity": 1,
+                    "total_product_price": 3000
+                },
+                {
+                    "product_id": 30,
+                    "product_name": "Burrito",
+                    "price": "2800.00",
+                    "quantity": 1,
+                    "total_product_price": 2800
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "9253.00",
+            "timestamp": "2024-11-21 06:35:37"
+        }
+    ],
+    "nikolaTesla@gmail.com": [
+        {
+            "user": {
+                "name": "nikola tesla",
+                "phone": "10071856-07011943",
+                "address": "Room 3327 of the New Yorker Hotel, located in Manhattan, New York City",
+                "country": "united-states",
+                "city": "new-york",
+                "email": "nikolaTesla@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 84,
+                    "product_name": "Empanada",
+                    "price": "49",
+                    "quantity": 6,
+                    "total_product_price": 294
+                },
+                {
+                    "product_id": 82,
+                    "product_name": "Banh Mi",
+                    "price": "1500.00",
+                    "quantity": 1,
+                    "total_product_price": 1500
+                },
+                {
+                    "product_id": 81,
+                    "product_name": "Falafel Bowl",
+                    "price": "1000.00",
+                    "quantity": 1,
+                    "total_product_price": 1000
+                },
+                {
+                    "product_id": 77,
+                    "product_name": "Samosa",
+                    "price": "800.00",
+                    "quantity": 1,
+                    "total_product_price": 800
+                }
+            ],
+            "totalQuantity": "9",
+            "totalPrice": "3594.00",
+            "timestamp": "2024-11-21 11:20:43"
+        }
+    ]
+}

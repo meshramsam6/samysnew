@@ -1,0 +1,613 @@
+{
+    "samm9421@gmail.com": [
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "8",
+                    "quantity": 1
+                },
+                {
+                    "product_id": 1,
+                    "quantity": 1
+                },
+                {
+                    "product_id": 3,
+                    "quantity": 1
+                },
+                {
+                    "product_id": "18",
+                    "quantity": 1
+                },
+                {
+                    "product_id": "19",
+                    "quantity": 2
+                },
+                {
+                    "product_id": "20",
+                    "quantity": 1
+                },
+                {
+                    "product_id": "2",
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": "8",
+            "totalPrice": "32522.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "quantity": 1
+                },
+                {
+                    "product_id": "3",
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": "2",
+            "totalPrice": "27699.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "quantity": 1
+                },
+                {
+                    "product_id": "3",
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": "2",
+            "totalPrice": "27699.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "2",
+                    "quantity": 4
+                }
+            ],
+            "totalQuantity": "4",
+            "totalPrice": "4.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "3",
+                    "quantity": 5
+                },
+                {
+                    "product_id": "4",
+                    "quantity": 3
+                }
+            ],
+            "totalQuantity": "8",
+            "totalPrice": "100721.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "2",
+                    "quantity": 5
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "5.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "2",
+                    "quantity": 5
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "5.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "quantity": 3
+                }
+            ],
+            "totalQuantity": "3",
+            "totalPrice": "56661.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "7",
+                    "quantity": 3
+                }
+            ],
+            "totalQuantity": "3",
+            "totalPrice": "16665.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "3",
+                    "quantity": 4
+                }
+            ],
+            "totalQuantity": "4",
+            "totalPrice": "35248.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "6",
+                    "quantity": 5
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "12750.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 7
+                }
+            ],
+            "totalQuantity": "7",
+            "totalPrice": "132209.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "3",
+                    "product_name": "Must Try Dishes",
+                    "quantity": 8
+                },
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 4
+                }
+            ],
+            "totalQuantity": "12",
+            "totalPrice": "146044.00",
+            "timestamp": "2024-11-14 14:51:04"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 5
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "94435.00",
+            "timestamp": "2024-11-14 14:52:28"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 5
+                },
+                {
+                    "product_id": "3",
+                    "product_name": "Must Try Dishes",
+                    "quantity": 4
+                }
+            ],
+            "totalQuantity": "9",
+            "totalPrice": "129683.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 5
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "94435.00"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 4
+                }
+            ],
+            "totalQuantity": "4",
+            "totalPrice": "75548.00"
+        },
+        {
+            "user": {
+                "name": "ana de armas",
+                "phone": "08010388532",
+                "address": "san francisco",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 4
+                }
+            ],
+            "totalQuantity": "4",
+            "totalPrice": "75548.00"
+        },
+        {
+            "user": {
+                "name": "tom cruise",
+                "phone": "113",
+                "address": "ana de armas",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 8
+                }
+            ],
+            "totalQuantity": "8",
+            "totalPrice": "151096.00",
+            "timestamp": "2024-11-14 15:10:46"
+        },
+        {
+            "user": {
+                "name": "tom cruise",
+                "phone": "113",
+                "address": "ana de armas",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 4
+                }
+            ],
+            "totalQuantity": "4",
+            "totalPrice": "75548.00",
+            "timestamp": "2024-11-14 17:38:47"
+        },
+        {
+            "user": {
+                "name": "tom cruise",
+                "phone": "113",
+                "address": "ana de armas",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": "4",
+                    "product_name": "Tasty French Fries",
+                    "quantity": 4
+                }
+            ],
+            "totalQuantity": "4",
+            "totalPrice": "75548.00",
+            "timestamp": "2024-11-14 17:38:47"
+        },
+        {
+            "user": {
+                "name": "tom cruise",
+                "phone": "113",
+                "address": "ana de armas",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 2,
+                    "product_name": "Burger Patty Recipe",
+                    "quantity": 18
+                },
+                {
+                    "product_id": 4,
+                    "product_name": "Tasty French Fries",
+                    "quantity": 4
+                },
+                {
+                    "product_id": 45,
+                    "product_name": "Chicken Nuggets",
+                    "quantity": 2
+                },
+                {
+                    "product_id": 8,
+                    "product_name": "Ice Cream",
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": "25",
+            "totalPrice": "91121.00",
+            "timestamp": "2024-11-15 10:28:39"
+        },
+        {
+            "user": {
+                "name": "tom cruise and ana",
+                "phone": "113",
+                "address": "ana de armas",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 3,
+                    "product_name": "Must Try Dishes",
+                    "quantity": 4
+                },
+                {
+                    "product_id": 4,
+                    "product_name": "Tasty French Fries",
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "54135.00",
+            "timestamp": "2024-11-15 10:36:40"
+        },
+        {
+            "user": {
+                "name": "tom cruise and ana",
+                "phone": "113",
+                "address": "ana de armas",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 3,
+                    "product_name": "Must Try Dishes",
+                    "quantity": 2
+                },
+                {
+                    "product_id": 4,
+                    "product_name": "Tasty French Fries",
+                    "quantity": 1
+                },
+                {
+                    "product_id": 45,
+                    "product_name": "Chicken Nuggets",
+                    "quantity": 3
+                },
+                {
+                    "product_id": 70,
+                    "product_name": "Pork Fried Rice",
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": "7",
+            "totalPrice": "42611.00",
+            "timestamp": "2024-11-15 10:52:36"
+        },
+        {
+            "user": {
+                "name": "tom cruise and ana",
+                "phone": "113",
+                "address": "ana de armas",
+                "country": "west-bengal",
+                "city": "delhi",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 2,
+                    "product_name": "Burger Patty Recipe",
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": "1",
+            "totalPrice": "1.00",
+            "timestamp": "2024-11-15 10:53:10"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 2,
+                    "product_name": "Burger Patty Recipe",
+                    "quantity": 1
+                },
+                {
+                    "product_id": 4,
+                    "product_name": "Tasty French Fries",
+                    "quantity": 1
+                }
+            ],
+            "totalQuantity": "2",
+            "totalPrice": "18888.00",
+            "timestamp": "2024-11-15 10:54:39"
+        },
+        {
+            "user": {
+                "name": "durga gajanan bavane",
+                "phone": "08010388532",
+                "address": "yg",
+                "country": "west-bengal",
+                "city": "YML",
+                "email": "samm9421@gmail.com"
+            },
+            "cartItems": [
+                {
+                    "product_id": 2,
+                    "product_name": "Burger Patty Recipe",
+                    "quantity": 1
+                },
+                {
+                    "product_id": 4,
+                    "product_name": "Tasty French Fries",
+                    "quantity": 1
+                },
+                {
+                    "product_id": 36,
+                    "product_name": "Lobster Tail",
+                    "quantity": 3
+                }
+            ],
+            "totalQuantity": "5",
+            "totalPrice": "36888.00",
+            "timestamp": "2024-11-15 11:59:16"
+        }
+    ]
+}

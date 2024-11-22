@@ -1,0 +1,57 @@
+/* Default Light Mode Styles */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+h1.dark-mode {
+    color: white;
+}
+
+button.dark-mode {
+    background-color: #444;
+    color: white;
+}
+
+/* Automatically Detect System Preferences */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: white;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    button {
+        background-color: #444;
+        color: white;
+    }
+}

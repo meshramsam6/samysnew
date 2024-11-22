@@ -1,0 +1,379 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Body Styling (With a Dynamic Gradient Background) */
+body {
+  background: linear-gradient(135deg, #5b86e5, #36d1dc); /* Background remains intact */
+  background-size: 400% 400%;
+  animation: gradientBackground 10s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+@keyframes gradientBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Container Styling (Neumorphism and Glassmorphism) */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  padding: 50px 70px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInContainer 1s ease-out;
+}
+
+/* Hover Effect (For the Container) */
+.container:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
+}
+
+/* Fade-in Effect for the Container */
+@keyframes fadeInContainer {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Header Styling with Custom Animation */
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+  animation: slideInHeader 1.5s ease-out;
+}
+
+/* Slide-In Animation for Header */
+@keyframes slideInHeader {
+  0% { opacity: 0; transform: translateX(-100%); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+/* Label Styling */
+label {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 12px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Floating Labels */
+input:focus + label, select:focus + label {
+  font-size: 14px;
+  color: #36d1dc;
+  top: -18px;
+  transition: all 0.3s ease;
+}
+
+/* Input Fields Styling */
+input, select {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input/Select Focus Effect */
+input:focus, select:focus {
+  border: 2px solid #36d1dc;
+  box-shadow: 0 8px 25px rgba(54, 209, 220, 0.4);
+}
+
+/* Category Dropdown Styling */
+select {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23444" viewBox="0 0 24 24"%3E%3Cpath d="M7 10l5 5 5-5z"%3E%3C/path%3E%3C/svg%3E');
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  padding-right: 40px;
+  border-radius: 20px;
+}
+
+/* Button Styling (Gradient with Neumorphism Effects) */
+button {
+  width: 100%;
+  padding: 18px;
+  font-size: 18px;
+  color: #fff;
+  background: linear-gradient(135deg, #5b86e5, #36d1dc);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(91, 134, 229, 0.4);
+}
+
+/* Button Active Effect */
+button:active {
+  transform: scale(1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Hidden New Category Input */
+.hidden {
+  display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      padding: 25px 35px;
+      width: 90%;
+  }
+
+  h1 {
+      font-size: 36px;
+  }
+
+  button {
+      font-size: 16px;
+  }
+
+  label {
+      font-size: 16px;
+  }
+
+  input, select {
+      padding: 14px;
+      font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global Variables */
+:root {
+  --primary-color: #49D8B9; /* Vibrant teal */
+  --secondary-color: #E8BC0E; /* Vibrant gold */
+  --bg-gradient: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+  --nav-height: 80px;
+  --shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  --border-radius: 50px; /* Curved edges */
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-gradient);
+  backdrop-filter: blur(15px);
+  border-radius: 0 0 50px 50px; /* Curved bottom corners */
+  box-shadow: var(--shadow);
+  transition: all 0.4s ease;
+}
+
+/* Add padding-top to main content to account for navbar height */
+body {
+  margin: 0;
+  padding-top: var(--nav-height); /* Ensure content starts below navbar */
+}
+
+/* Navbar Container */
+.navbar-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  letter-spacing: 2px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo a img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo a:hover {
+  transform: rotate(10deg) scale(1.2);
+  color: #fff;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-links li {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Base Link Styling */
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #000;
+  background: var(--hover-gradient);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Elegant Hover Effect - No Rectangular Shape */
+.nav-links li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 5px;
+  background: var(--hover-gradient);
+  transition: all 0.4s ease;
+  transform: translateX(-50%) rotate(-45deg); /* Diagonal underline effect */
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.nav-links li:hover::after {
+  width: 100%;
+  transform: translateX(-50%) rotate(0deg); /* Reset to horizontal */
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+      display: flex;
+  }
+
+  .nav-links {
+      position: fixed;
+      top: var(--nav-height);
+      right: -100%;
+      width: 75%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.95);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      transition: right 0.4s ease;
+      z-index: 999;
+      border-radius: 30px 0 0 30px; /* Curved left side */
+  }
+
+  .nav-links.open {
+      right: 0;
+  }
+
+  .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translateY(8px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+      opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translateY(-8px);
+  }
+}
+
+/* Example Content Below Navbar */
+.main-content {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}

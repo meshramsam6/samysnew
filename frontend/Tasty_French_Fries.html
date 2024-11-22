@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Awesome Chicken</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #FF3D00;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            font-size: 20px;
+            color: #FF5A5F;
+            font-weight: bold;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .left {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .left img {
+            width: 300px;
+            height: auto;
+            border-radius: 50%;
+            animation: rotate 10s linear infinite;
+            cursor: pointer;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .left .discount {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: yellow;
+            color: #FF3D00;
+            padding: 10px 20px;
+            border-radius: 50%;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .right {
+            max-width: 500px;
+        }
+
+        .right h2 {
+            font-size: 30px;
+            margin: 0;
+        }
+
+        .right h1 {
+            font-size: 50px;
+            margin: 10px 0;
+        }
+
+        .right p {
+            font-size: 14px;
+            margin: 20px 0;
+        }
+
+        .right .order-btn {
+            background-color: yellow;
+            color: #FF3D00;
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: yellow;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img alt="Red square with a white 'D' in the center" height="40"
+                src="https://storage.googleapis.com/a1aa/image/ii62jMsY0Gp0HZasfSFSsBUpr4lkYgGHF9Qu671xIsTExpyJA.jpg"
+                width="40" />
+            <span class="logo-text">Fdelivery</span>
+        </div>
+        <div class="content">
+            <div class="left">
+                <img alt="Plate of chicken wings with salad" height="300" onclick="window.location.href='index.html'"
+                    src="/frontend/images/Free_French.png"
+                    width="300" />
+                <div class="discount">45% OFF</div>
+            </div>
+            <div class="right">
+                <h2>Best Menu</h2>
+                <h1>Tasty French Fries</h1>
+                <p>Delight in crispy French fries, perfectly golden and seasoned, offering a satisfying crunch on the outside and a fluffy,
+                tender interior, making each bite irresistibly delicious and perfect for any craving</p>
+                <button class="order-btn" onclick="addToCartAndRedirect(4)">ORDER NOW</button>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <script>
+        function addToCartAndRedirect(productId) {
+            // Get the existing cart from localStorage
+            let cart = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
+
+            // Find if the product is already in the cart
+            let existingProductIndex = cart.findIndex(item => item.product_id == productId);
+
+            if (existingProductIndex >= 0) {
+                // If product is already in the cart, increase its quantity
+                cart[existingProductIndex].quantity += 1;
+            } else {
+                // If product is not in the cart, add it with quantity 1
+                cart.push({ product_id: productId, quantity: 1 });
+            }
+
+            // Save the updated cart to localStorage
+            localStorage.setItem('cart', JSON.stringify(cart));
+
+            // Redirect to cart.html
+            window.location.href = 'cart.html';
+        }
+    </script>
+</body>
+
+</html>

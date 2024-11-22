@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Fried Chicken</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            color: #333;
+        }
+
+        .product-container {
+            position: relative;
+            width: 80%;
+            max-width: 900px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+        }
+
+        /* Decorative Shapes */
+        .shape {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 228, 181, 0.4);
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        .shape.one {
+            top: -50px;
+            left: -50px;
+        }
+
+        .shape.two {
+            bottom: -50px;
+            right: -50px;
+        }
+
+        /* Image Section */
+        .product-image {
+            flex: 1;
+            background: linear-gradient(135deg, #ffceac, #ff9c6e);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .product-image img {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 15px;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .product-image:hover img {
+            transform: scale(1.1) rotate(-3deg);
+        }
+
+        /* Details Section */
+        .product-details {
+            flex: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .product-title {
+            font-size: 2.5rem;
+            color: #ff6f61;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        .product-category {
+            font-size: 0.9rem;
+            color: #999;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .product-detail {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .product-price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #5cb85c;
+            margin-bottom: 20px;
+        }
+
+        .buy-now {
+            background: #ff6f61;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            align-self: flex-start;
+        }
+
+        .buy-now:hover {
+            background-color: #e65748;
+            transform: translateY(-3px);
+        }
+
+        .buy-now:active {
+            transform: scale(0.95);
+        }
+
+        @media (max-width: 768px) {
+            .product-container {
+                flex-direction: column;
+            }
+
+            .product-details {
+                text-align: center;
+                padding: 20px;
+            }
+
+            .buy-now {
+                align-self: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <!-- Decorative Shapes -->
+        <div class="shape one"></div>
+        <div class="shape two"></div>
+
+        <!-- Product Image Section -->
+        <div class="product-image">
+            <img src="/frontend/images/fried_chicken_crispy.png" alt="Crispy Fried Chicken">
+        </div>
+
+        <!-- Product Details Section -->
+        <div class="product-details">
+            <h1 class="product-title">Crispy Fried Chicken</h1>
+            <p class="product-category">Fast Food</p>
+            <p class="product-detail">
+                Crispy Fried Chicken is a mouthwatering dish featuring tender chicken pieces coated in a perfectly seasoned crispy crust. 
+                Each bite is a delightful blend of juicy meat and crunchy coating, making it a favorite among fast food lovers.
+            </p>
+            <div class="product-price">₹3454.00</div>
+            <a href="#" class="buy-now">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>

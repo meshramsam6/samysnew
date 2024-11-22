@@ -1,0 +1,848 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Crispy_Fried_Chicken",
+            "titlea": "Crispy_Fried_Chicken",
+            "name": "Crispy Fried Chicken",
+            "price": "3454.00",
+            "url": "/frontend/images/fried_chicken_crispy.png",
+            "url2": "https://www.licious.in/blog/wp-content/uploads/2019/05/Drumsticks-liquidation-plan-05.jpg",
+            "category": "Fast Food",
+            "detail": "A classic delight, our Crispy Fried Chicken is seasoned to perfection, marinated in flavorful spices, and deep-fried to achieve a golden, crunchy exterior. Each bite delivers a juicy, tender interior with a satisfying crunch, making it an irresistible favorite for any meal or snack."
+        },
+        {
+            "id": 2,
+            "titlea": "Burger_Patty_Recipe",
+            "title": "Burger_Patty_Recipe",
+            "name": "Burger Patty Recipe",
+            "price": "353.00",
+            "url": "/frontend/images/Burger_Patty_Recipe.png",
+            "url2": "https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers-upgrade/intro-1662064407.webp",
+            "category": "Fast Food",
+            "detail": "Craft the ultimate burger at home with our premium Burger Patty Recipe. Made with high-quality ground meat, expertly seasoned with aromatic herbs and spices, these patties are juicy and packed with flavor. Perfectly versatile, they pair wonderfully with any bun, toppings, and condiments."
+        },
+        {
+            "id": 3,
+            "titlea": "Must_Try_Dishes",
+            "name": "Must Try Dishes",
+            "price": "8812.00",
+            "url": "/frontend/images/Must_Try_Dishes.png",
+            "url2": "https://www.trocals.com/wp-content/uploads/2023/06/Untitled-design-9-1-1000x565.png",
+            "category": "Rice Menu",
+            "detail": "Explore our selection of Must Try Dishes, featuring a variety of hearty and flavorful rice-based meals. From aromatic biryanis to savory fried rice, each dish is crafted with premium ingredients and authentic recipes that offer a true culinary experience."
+        },
+        {
+            "id": 4,
+            "titlea": "Tasty_French_Fries",
+            "name": "Tasty French Fries",
+            "price": "18887.00",
+            "url": "/frontend/images/Free_French.png",
+            "url2": "https://thissillygirlskitchen.com/wp-content/uploads/2020/02/homemade-french-fries-5.jpg",
+            "category": "Fast Food",
+            "detail": "Crispy on the outside and soft on the inside, our Tasty French Fries are freshly cut and fried to golden perfection. A sprinkle of sea salt enhances their natural flavor, making them the perfect side or snack for any occasion."
+        },
+        {
+            "id": 5,
+            "titlea": "Toasted_Bread",
+            "name": "Toasted Bread",
+            "price": "1988.00",
+            "url": "/frontend/images/Toasted_Bread.png",
+            "url2": "https://www.allrecipes.com/thmb/ksC0Bc1c4AYTK689OC3fWvhDS9A=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21060_ToastedGarlicBread-DDMFS-074-4x3-4f05bc2c7cfc433e9c4d33e16a5b4e34.jpg",
+            "category": "Desserts",
+            "detail": "Our Toasted Bread is a simple yet satisfying choice, offering warm slices of bread toasted to a light crunch. Perfectly paired with butter, jams, or dips, it complements any meal or serves as a quick snack on its own."
+        },
+        {
+            "id": 6,
+            "titlea": "Biscuit",
+            "name": "Biscuit",
+            "price": "2550.00",
+            "url": "/frontend/images/mynew/Toasted_Bread1.png",
+            "url2": "https://recipes.net/wp-content/uploads/2023/07/easy-chocolate-biscuits_e458389a439c5805a3c314ad19a6079f.jpeg",
+            "category": "Fast Food",
+            "detail": "Delight in the buttery goodness of our Biscuits, baked to golden perfection. These flaky treats are ideal as a snack, breakfast item, or paired with gravies and spreads. Each bite is a testament to timeless baking traditions."
+        },
+        {
+            "id": 7,
+            "titlea": "Chocolate_Lava_Cake",
+            "name": "Chocolate Lava Cake",
+            "price": "5555.00",
+            "url": "/frontend/images/mynew/choco_lava_cake.png",
+            "url2": "https://recipes.net/wp-content/uploads/2023/07/easy-chocolate-biscuits_e458389a439c5805a3c314ad19a6079f.jpeg",
+            "category": "Desserts",
+            "detail": "Indulge in the decadent delight of our Chocolate Lava Cake. With a warm, gooey chocolate center that oozes out with every bite, this dessert is a chocolate lover's dream. Perfect for a romantic dinner or a special occasion."
+        },
+        {
+            "id": 8,
+            "titlea": "Ice_Cream",
+            "name": "Ice Cream",
+            "price": "12555.00",
+            "url": "/frontend/images/mynew/Ice_cream.png",
+            "url2": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/1280px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg",
+            "category": "Desserts",
+            "detail": "Cool down with our creamy and refreshing Ice Cream. Available in a variety of flavors, our ice cream is made with fresh ingredients and churned to perfection. Enjoy it in a cone, cup, or as a topping for your favorite desserts."
+        },
+        {
+            "id": 9,
+            "titlea": "Vegetable_Fried_Rice",
+            "name": "Vegetable Fried Rice",
+            "price": "15552.00",
+            "url": "/frontend/images/mynew/vegetable_fried_rice_new.png",
+            "url2": "https://shwetainthekitchen.com/wp-content/uploads/2023/06/veg-fried-rice-1024x1536.jpg",
+            "category": "Rice Menu",
+            "detail": "Savor the flavors of the Orient with our Vegetable Fried Rice. This dish features a medley of fresh vegetables and fluffy rice, stir-fried to perfection with aromatic spices. A wholesome and satisfying meal on its own or as a side dish."
+        },
+        {
+            "id": 10,
+            "titlea": "Tiramisu",
+            "name": "Tiramisu",
+            "price": "15552.00",
+            "url": "/frontend/images/mynew/Tiramisu.png",
+            "url2": "https://www.elmundoeats.com/wp-content/uploads/2020/12/10-Minute-Eggless-Tiramisu-For-Two-main-1024x1536.jpg",
+            "category": "Desserts",
+            "detail": "Experience the Italian indulgence of our Tiramisu. This classic dessert features layers of coffee-soaked ladyfingers and creamy mascarpone cheese, dusted with cocoa powder. A perfect ending to any meal."
+        },
+        {
+            "id": 11,
+            "titlea": "Margherita_Pizza",
+            "name": "Margherita Pizza",
+            "price": "125555.00",
+            "url": "/frontend/images/mynew/Margherita_Pizza.png",
+            "url2": "https://cdn.loveandlemons.com/wp-content/uploads/2023/07/margherita-pizza-recipe.jpg",
+            "category": "Pizza",
+            "detail": "Our Margherita Pizza features a thin crust topped with fresh mozzarella, tomato sauce, and fragrant basil leaves. A simple yet flavorful pizza for any pizza lover."
+        },
+        {
+            "id": 12,
+            "titlea": "Gulab_Jamun",
+            "name": "Gulab Jamun",
+            "price": "155552.00",
+            "url": "/frontend/images/mynew/gulab_jamun.png",
+            "url2": "https://namastevictoria.ca/wp-content/uploads/2024/01/gulab-jamun.png",
+            "category": "Desserts",
+            "detail": "Indulge in the sweetness of Gulab Jamun, a traditional Indian dessert made from deep-fried dough balls soaked in aromatic sugar syrup. Soft, spongy, and irresistibly delicious."
+        },
+        {
+            "id": 13,
+            "titlea": "Espresso",
+            "name": "Espresso",
+            "price": "155552.00",
+            "url": "/frontend/images/mynew/Espresso.png",
+            "url2": "https://blogstudio.s3.theshoppad.net/coffeeheroau/ec178d83e5f597b162cda1e60cb64194.jpg",
+            "category": "Coffee",
+            "detail": "Enjoy the bold and intense flavor of our Espresso, made with freshly ground beans and brewed to perfection. A classic coffee choice for those who love a strong, rich flavor."
+        },
+        {
+            "id": 14,
+            "title": "Cafe_Au_Lait",
+            "name": "Caf\u00e9 au Lait",
+            "price": "15552.00",
+            "url": "/frontend/images/mynew/Caf\u00e9_au_Lait.png",
+            "url2": "https://media.istockphoto.com/id/1130315137/photo/cup-of-cappuccino-coffee.jpg?s=612x612&w=0&k=20&c=L2OrThNrUWtfThYPBeyyyEhc4b1VwC6hzk1Yj1x4IJI=",
+            "category": "Coffee",
+            "detail": "Enjoy a warm and comforting Caf\u00e9 au Lait, made with freshly brewed coffee and steamed milk. A smooth and balanced coffee drink that\u2019s perfect for any time of day."
+        },
+        {
+            "id": 15,
+            "title": "Hawaiian_Pizza",
+            "name": "Hawaiian Pizza",
+            "price": "15552.00",
+            "url": "/frontend/images/mynew/Hawaiian_Pizza.png",
+            "url2": "https://www.crazyforcrust.com/wp-content/uploads/2024/05/Hawaiian-Pizza-Recipe-1-1024x1536.jpg",
+            "category": "Pizza",
+            "detail": "A tropical twist on the classic pizza, our Hawaiian Pizza is topped with savory ham, sweet pineapple, and melted cheese. A deliciously unique combination."
+        },
+        {
+            "id": 16,
+            "title": "Black_Forest_Cake",
+            "name": "Black Forest Cake",
+            "price": "155552.00",
+            "url": "/frontend/images/mynew/Black_Forest_Cake.png",
+            "url2": "https://livforcake.com/wp-content/uploads/2017/07/black-forest-cake-7.jpg",
+            "category": "Desserts",
+            "detail": "Indulge in the rich and decadent Black Forest Cake, featuring layers of chocolate cake, whipped cream, and cherries. A classic dessert with a luxurious twist."
+        },
+        {
+            "id": 17,
+            "title": "Spaghetti_Bolognese",
+            "name": "Spaghetti Bolognese",
+            "price": "2500.00",
+            "url": "/frontend/images/mynew/saphagatinew.png",
+            "url2": "https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Spaghetti-Bolognese-tall-FS-0204.webp",
+            "category": "Pasta",
+            "detail": "Our Spaghetti Bolognese features a rich, savory meat sauce made from ground beef, tomatoes, and aromatic herbs, served over al dente spaghetti. A classic Italian dish that never goes out of style."
+        },
+        {
+            "id": 18,
+            "title": "Caesar_Salad",
+            "name": "Caesar Salad",
+            "price": "1800.00",
+            "url": "/frontend/images/mynew/caesarnew.png",
+            "url2": "https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-3-1024x1536.jpg",
+            "category": "Salads",
+            "detail": "Crisp romaine lettuce tossed in a rich, creamy Caesar dressing, topped with crunchy croutons and grated Parmesan cheese. A classic salad perfect for any occasion."
+        },
+        {
+            "id": 19,
+            "title": "Vegetable_Spring_Rolls",
+            "name": "Vegetable Spring Rolls",
+            "price": "1200.00",
+            "url": "/frontend/images/mynew/Vegetable Spring Rolls.png",
+            "url2": "https://www.kitchensanctuary.com/wp-content/uploads/2023/10/Vegetable-Spring-Rolls-tall-FS-1025x1536.jpg",
+            "category": "Appetizers",
+            "detail": "Crisp and flavorful, our Vegetable Spring Rolls are filled with a mix of fresh vegetables and seasoned to perfection. These rolls are deep-fried until golden and served with tangy dipping sauce."
+        },
+        {
+            "id": 20,
+            "title": "Grilled_Salmon",
+            "name": "Grilled Salmon",
+            "price": "3500.00",
+            "url": "/frontend/images/mynew/grilled_salmon.png",
+            "url2": "https://www.eatingwell.com/thmb/o242lizwJDuHZGGQ19uHu3qiYA4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/5544320-04f567e988ce416dadc24ba38716147d.jpg",
+            "category": "Seafood",
+            "detail": "Our Grilled Salmon is perfectly cooked to retain its natural flavors, served with a side of roasted vegetables or a light salad. A healthy and flavorful choice."
+        },
+        {
+            "id": 21,
+            "title": "Stuffed_Peppers",
+            "name": "Stuffed Peppers",
+            "price": "2400.00",
+            "url": "/frontend/images/mynew/Stuffed Peppers.png",
+            "url2": "https://www.asweetalternative.com/wp-content/uploads/2021/10/chickpea-stuffed-peppers.jpg",
+            "category": "Vegetarian",
+            "detail": "Vibrant bell peppers stuffed with a flavorful mix of rice, seasoned meat, and vegetables, then baked to perfection. A colorful and satisfying dish."
+        },
+        {
+            "id": 22,
+            "title": "Fried_Shrimp",
+            "name": "Fried Shrimp",
+            "price": "3200.00",
+            "url": "/frontend/images/mynew/fried_shrimp.png",
+            "url2": "https://www.justonecookbook.com/wp-content/uploads/2020/04/Ebi-Fry-Fried-Shrimp-1181-II.jpg",
+            "category": "Seafood",
+            "detail": "Enjoy the crispy delight of our Fried Shrimp, coated in a golden batter and deep-fried to perfection. Served with tangy dipping sauces, it\u2019s a seafood lover's dream."
+        },
+        {
+            "id": 23,
+            "title": "BBQ_Ribs",
+            "name": "BBQ Ribs",
+            "price": "4000.00",
+            "url": "/frontend/images/mynew/bbq_ribs.png",
+            "url2": "https://www.thecookierookie.com/wp-content/uploads/2023/05/crock-pot-ribs-recipe-slow-cooker-bbq-ribs-2-of-7-edited-1152x1536.jpg",
+            "category": "Meat",
+            "detail": "Succulent and smoky, our BBQ Ribs are slow-cooked to tender perfection and glazed with a rich, tangy barbecue sauce. Perfect for a hearty meal or a festive gathering, every bite bursts with flavor."
+        },
+        {
+            "id": 24,
+            "title": "Chicken_Alfredo",
+            "name": "Chicken Alfredo",
+            "price": "3500.00",
+            "url": "/frontend/images/mynew/chicken12.png",
+            "url2": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-V3-1152x1536.jpg",
+            "category": "Pasta",
+            "detail": "Our Chicken Alfredo is a creamy pasta dish made with tender chicken, fettuccine noodles, and a rich, cheesy Alfredo sauce. A comforting and indulgent meal."
+        },
+        {
+            "id": 25,
+            "title": "Fruit_Tart",
+            "name": "Fruit Tart",
+            "price": "1500.00",
+            "url": "/frontend/images/mynew/fruit_tart.png",
+            "url2": "https://thecrumbykitchen.com/wp-content/uploads/2019/03/Whipped-Yogurt-Fruit-Tart-3.jpg",
+            "category": "Desserts",
+            "detail": "Our Fruit Tart is a delicate pastry crust filled with rich custard and topped with an array of fresh, vibrant fruits. A beautiful and delicious dessert for any occasion."
+        },
+        {
+            "id": 26,
+            "title": "Egg_Benedict",
+            "name": "Egg Benedict",
+            "price": "1800.00",
+            "url": "/frontend/images/mynew/egg_benedict.png",
+            "url2": "https://www.thespruceeats.com/thmb/uJNzfBNBhtogWSExugLzjU2LmsI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/EggsBenectictHERO-4a957cd9e4624262b3e9b8f645462f91.jpg",
+            "category": "Breakfast",
+            "detail": "Indulge in our Eggs Benedict, featuring poached eggs, savory ham or smoked salmon, and rich hollandaise sauce, all served on an English muffin. A luxurious breakfast or brunch option."
+        },
+        {
+            "id": 27,
+            "title": "Greek_Salad",
+            "name": "Greek Salad",
+            "price": "1300.00",
+            "url": "/frontend/images/mynew/greek_salad.png",
+            "url2": "https://images.themodernproper.com/billowy-turkey/production/posts/GreekGrilledChickenwithSalad_9.jpg?w=1200&q=82&auto=format&fit=crop&dm=1686788210&s=f53a5fdf42d225e63b468eb5d59abd6f",
+            "category": "Salads",
+            "detail": "Our Greek Salad is a refreshing mix of crisp cucumbers, tomatoes, olives, and feta cheese, dressed in olive oil and oregano. A light, flavorful dish perfect for warm weather."
+        },
+        {
+            "id": 28,
+            "title": "Pancakes",
+            "name": "Pancakes",
+            "price": "1200.00",
+            "url": "/frontend/images/mynew/pancakes.png",
+            "url2": "https://www.allrecipes.com/thmb/FE0PiuuR0Uh06uVh1c2AsKjRGbc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_002-0e249c95678f446291ebc9408ae64c05.jpg",
+            "category": "Breakfast",
+            "detail": "Start your day right with our fluffy and golden Pancakes, served with a drizzle of maple syrup and a dusting of powdered sugar. A breakfast classic for all ages."
+        },
+        {
+            "id": 29,
+            "title": "Cheesecake",
+            "name": "Cheesecake",
+            "price": "2500.00",
+            "url": "/frontend/images/mynew/cheesecake.png",
+            "url2": "https://www.inspiredtaste.net/wp-content/uploads/2024/03/New-York-Cheesecake-Recipe-1-1023x1536.jpg",
+            "category": "Desserts",
+            "detail": "Indulge in our creamy and luscious Cheesecake, made with smooth cream cheese and a buttery graham cracker crust. Perfect for dessert lovers of all ages."
+        },
+        {
+            "id": 30,
+            "title": "Burrito",
+            "name": "Burrito",
+            "price": "2800.00",
+            "url": "/frontend/images/mynew/burrito.png",
+            "url2": "https://www.inspiredtaste.net/wp-content/uploads/2019/08/Veggie-Burrito-Recipe-1-1200.jpg",
+            "category": "Mexican",
+            "detail": "Wrap up your cravings with our Burrito, stuffed with seasoned meat, beans, rice, cheese, and fresh vegetables. Rolled in a soft tortilla, it\u2019s a meal that satisfies every time."
+        },
+        {
+            "id": 31,
+            "title": "Sushi",
+            "name": "Sushi",
+            "price": "3000.00",
+            "url": "/frontend/images/mynew/sushi.png",
+            "url2": "https://cdn.britannica.com/52/128652-050-14AD19CA/Maki-zushi.jpg?w=400&h=300&c=crop",
+            "category": "Japanese",
+            "detail": "Experience the art of Japanese cuisine with our Sushi, featuring perfectly rolled rice, fresh seafood, and crisp vegetables. Served with soy sauce, wasabi, and pickled ginger for the ultimate flavor experience."
+        },
+        {
+            "id": 32,
+            "title": "Pesto_Pasta",
+            "name": "Pesto Pasta",
+            "price": "2200.00",
+            "url": "/frontend/images/mynew/pesto_pasta.png",
+            "url2": "https://vancouverwithlove.com/wp-content/uploads/2023/08/pasta-al-pesto-23-1-1097x1536.jpg",
+            "category": "Pasta",
+            "detail": "Our Pesto Pasta features al dente pasta tossed in a rich, fragrant basil pesto sauce, made with garlic, pine nuts, and Parmesan cheese. A vibrant and flavorful dish."
+        },
+        {
+            "id": 33,
+            "title": "Clam_Chowder",
+            "name": "Clam Chowder",
+            "price": "1700.00",
+            "url": "/frontend/images/mynew/clam_chowder.png",
+            "url2": "https://thecozycook.com/wp-content/uploads/2022/10/Clam-Chowder-2.jpg",
+            "category": "Soups",
+            "detail": "Warm up with our creamy Clam Chowder, made with tender clams, potatoes, and a rich, velvety base. A comforting and hearty soup."
+        },
+        {
+            "id": 34,
+            "title": "Buffalo_Wings",
+            "name": "Buffalo Wings",
+            "price": "2300.00",
+            "url": "/frontend/images/mynew/buffalo_wings.png",
+            "url2": "https://assets.epicurious.com/photos/596d14096c42213eb20a2b65/1:1/w_960,c_limit/How-To-Make-Boneless-Buffalo-Chicken-Wings-071220172005.jpg",
+            "category": "Appetizers",
+            "detail": "Our Buffalo Wings are deep-fried and tossed in a tangy, spicy sauce. Perfect for snacking or sharing, they\u2019re served with a side of creamy blue cheese dressing."
+        },
+        {
+            "id": 35,
+            "title": "Pork_Chops",
+            "name": "Pork Chops",
+            "price": "3200.00",
+            "url": "/frontend/images/mynew/pork_chops.png",
+            "url2": "https://fitfoodiefinds.com/wp-content/uploads/2021/07/grilled-pork-chops-5-scaled.jpg",
+            "category": "Meat",
+            "detail": "Tender and juicy, our Pork Chops are seasoned and grilled to perfection, served with a side of roasted vegetables or potatoes. A hearty, satisfying meal."
+        },
+        {
+            "id": 36,
+            "title": "Lobster_Tail",
+            "name": "Lobster Tail",
+            "price": "6000.00",
+            "url": "/frontend/images/mynew/lobster_tail.png",
+            "url2": "https://images-cdn.ubuy.co.in/6570726aaf93811a3d1f8b54-maine-lobster-now-maine-lobster-tails.jpg",
+            "category": "Seafood",
+            "detail": "Indulge in the luxurious taste of our Lobster Tail, perfectly grilled or butter-poached to highlight its tender, sweet meat. Served with drawn butter and a squeeze of lemon for a decadent experience."
+        },
+        {
+            "id": 37,
+            "title": "Margarita",
+            "name": "Margarita",
+            "price": "1200.00",
+            "url": "/frontend/images/mynew/margarita.png",
+            "url2": "https://www.ambitiouskitchen.com/wp-content/uploads/2023/07/Frozen-Mango-Margarita-5-1064x1064.jpg",
+            "category": "Drinks",
+            "detail": "A classic cocktail, our Margarita is made with tequila, lime juice, and a touch of orange liqueur, served with a salted rim. A refreshing drink perfect for any occasion."
+        },
+        {
+            "id": 38,
+            "title": "Lemonade",
+            "name": "Lemonade",
+            "price": "800.00",
+            "url": "/frontend/images/mynew/lemonade.png",
+            "url2": "https://www.foodiecrush.com/wp-content/uploads/2022/06/Lemonade-foodiecrush.com-9-1-1024x1536.jpg",
+            "category": "Drinks",
+            "detail": "Quench your thirst with our refreshing Lemonade, made with freshly squeezed lemons, a touch of sweetness, and a hint of zest. Perfectly balanced and ideal for hot summer days."
+        },
+        {
+            "id": 39,
+            "title": "Chocolate_Smoothie",
+            "name": "Chocolate Smoothie",
+            "price": "900.00",
+            "url": "/frontend/images/mynew/chocolate_smoothie.png",
+            "url2": "https://www.ambitiouskitchen.com/wp-content/uploads/2021/04/Chocolate-Peanut-Butter-Banana-Smoothie-5-1064x1064.jpg",
+            "category": "Drinks",
+            "detail": "Our Chocolate Smoothie is a creamy blend of chocolate, milk, and banana, perfect for satisfying your sweet cravings while keeping things healthy."
+        },
+        {
+            "id": 40,
+            "title": "Mango_Smoothie",
+            "name": "Mango Smoothie",
+            "price": "1000.00",
+            "url": "/frontend/images/mynew/mango_smoothie.png",
+            "url2": "https://images.cdn.soppa365.fi/61_a9ALbOWVKT--p5TGuDXP31Bk=/890x0/smart/soppa365.fi/s3fs-public/recipe_main_media/mangosmoothie.jpg?itok=l714GV5T&timestamp=1551706580",
+            "category": "Drinks",
+            "detail": "Enjoy the tropical sweetness of our Mango Smoothie, made with ripe mangoes, yogurt, and a touch of honey. A refreshing drink for any time of day."
+        },
+        {
+            "id": 41,
+            "title": "Garlic_Bread",
+            "name": "Garlic Bread",
+            "price": "600.00",
+            "url": "/frontend/images/mynew/garlic_bread.png",
+            "url2": "https://fullofplants.com/wp-content/uploads/2023/05/crispy-air-fryer-garlic-bread-delicious-quick-appetizer-vegan-1-1024x1536.jpg",
+            "category": "Appetizers",
+            "detail": "Our Garlic Bread features soft, buttery bread toasted to perfection with a generous spread of garlic and herbs. A savory accompaniment to any meal."
+        },
+        {
+            "id": 42,
+            "title": "Caprese_Salad",
+            "name": "Caprese Salad",
+            "price": "1200.00",
+            "url": "/frontend/images/mynew/caprese_salad.png",
+            "url2": "https://www.allrecipes.com/thmb/3eOwu-XUwSaNjFdV09CP-OFIULM=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-228126-caprese-salad-with-balsamic-reduction-ddmfs-2644-4x3-f32ac2b2fb9d4234884a752490fb015b.jpg",
+            "category": "Salads",
+            "detail": "A fresh and vibrant salad, our Caprese Salad features ripe tomatoes, mozzarella cheese, fresh basil, and a drizzle of balsamic glaze. A perfect summer dish."
+        },
+        {
+            "id": 43,
+            "title": "Quiche",
+            "name": "Quiche",
+            "price": "1500.00",
+            "url": "/frontend/images/mynew/quiche.png",
+            "url2": "https://www.ifyougiveablondeakitchen.com/wp-content/uploads/2023/03/easy-muffin-tin-quiche-1152x1536.webp",
+            "category": "Breakfast",
+            "detail": "Savor the savory goodness of our Quiche, a flaky pastry filled with eggs, cheese, and a variety of fresh vegetables or meats. Perfect for brunch or a light meal."
+        },
+        {
+            "id": 44,
+            "title": "Pavlova",
+            "name": "Pavlova",
+            "price": "1800.00",
+            "url": "/frontend/images/mynew/pavlova.png",
+            "url2": "https://i0.wp.com/cooktildelicious.com/wp-content/uploads/2022/03/DSC_0381.jpg?w=819&ssl=1",
+            "category": "Desserts",
+            "detail": "Enjoy the light and airy delight of our Pavlova, a meringue-based dessert topped with fresh fruits and whipped cream. A refreshing and indulgent treat."
+        },
+        {
+            "id": 45,
+            "title": "Chicken_Nuggets",
+            "name": "Chicken Nuggets",
+            "price": "1500.00",
+            "url": "/frontend/images/mynew/chicken_nuggets.png",
+            "url2": "https://cdn.urbanpiper.com/media/bizmedia/2023/01/17/Chicken_nuggets_1673962569.jpg",
+            "category": "Fast Food",
+            "detail": "Our Chicken Nuggets are crispy on the outside and tender on the inside. Served with your choice of dipping sauce, they\u2019re a perfect snack or meal for all ages."
+        },
+        {
+            "id": 46,
+            "title": "Meat_Lovers_Pizza",
+            "name": "Meat Lovers Pizza",
+            "price": "2000.00",
+            "url": "/frontend/images/mynew/meat_lovers_pizza.png",
+            "url2": "https://i2.wp.com/www.stuckonsweet.com/wp-content/uploads/2016/01/meat-lovers-pizza-casserole-6.jpg?w=600&ssl=1",
+            "category": "Pizza",
+            "detail": "For those who crave meat, our Meat Lovers Pizza is loaded with savory toppings like pepperoni, sausage, bacon, and ham. A hearty and indulgent choice."
+        },
+        {
+            "id": 47,
+            "title": "Chili_Con_Carne",
+            "name": "Chili Con Carne",
+            "price": "1700.00",
+            "url": "/frontend/images/mynew/chili_con_carne.png",
+            "url2": "https://cdn.stoneline.de/thumbnail/29/ca/60/1727428884/chili-con-carne_800x800.jpeg",
+            "category": "Mexican",
+            "detail": "A hearty and spicy stew, our Chili Con Carne is made with ground beef, beans, tomatoes, and aromatic spices. Perfect for a filling meal, served with cornbread or rice."
+        },
+        {
+            "id": 48,
+            "title": "Vegetable_Pad_Thai",
+            "name": "Vegetable Pad Thai",
+            "price": "2000.00",
+            "url": "/frontend/images/mynew/vegetable_pad_thai.png",
+            "url2": "https://www.cookingandme.com/wp-content/uploads/2023/01/pad-thai-vegetarian-pad-thai-noodles-recipe-15.webp.webp",
+            "category": "Thai",
+            "detail": "Our Vegetable Pad Thai combines rice noodles, crisp vegetables, and a savory-sweet sauce made with tamarind and peanuts. A delightful take on the classic Thai street food, perfect for any meal."
+        },
+        {
+            "id": 49,
+            "title": "Chicken_Tikka",
+            "name": "Chicken Tikka",
+            "price": "2300.00",
+            "url": "/frontend/images/mynew/chicken_tikka.png",
+            "url2": "https://sinfullyspicy.com/wp-content/uploads/2014/03/1200-by-1800-images-2-1024x1536.jpg",
+            "category": "Indian",
+            "detail": "Juicy and flavorful, our Chicken Tikka is marinated in a blend of aromatic spices and grilled to perfection. This Indian delicacy is a crowd-pleaser, whether served as an appetizer or main dish."
+        },
+        {
+            "id": 50,
+            "title": "Falafel",
+            "name": "Falafel",
+            "price": "800.00",
+            "url": "/frontend/images/mynew/falafel.png",
+            "url2": "https://thenewbaguette.com/wp-content/uploads/2022/09/falafel-patties-27-1025x1536.webp",
+            "category": "Vegetarian",
+            "detail": "Enjoy the crispy, golden perfection of our Falafel, made from ground chickpeas, herbs, and spices. These Middle Eastern delights are perfect on their own or in pita bread with veggies and sauces."
+        },
+        {
+            "id": 51,
+            "title": "Pad_See_Ew",
+            "name": "Pad See Ew",
+            "price": "1500.00",
+            "url": "/frontend/images/mynew/pad_see_ew.png",
+            "url2": "https://thaicaliente.com/wp-content/uploads/2024/06/pad-see-ew-recipe-1152x1536.jpg",
+            "category": "Thai",
+            "detail": "A classic Thai dish, our Pad See Ew features stir-fried wide rice noodles, vegetables, and your choice of meat, all tossed in a savory sauce. A delicious and satisfying meal."
+        },
+        {
+            "id": 52,
+            "title": "Biryani",
+            "name": "Biryani",
+            "price": "2500.00",
+            "url": "/frontend/images/mynew/biryani.png",
+            "url2": "https://riceinfo.com/wp-content/uploads/2022/09/shortcut-spiced-chicken-biryani-recipe.jpg",
+            "category": "Indian",
+            "detail": "A fragrant and flavorful rice dish, our Biryani is made with long-grain basmati rice, spiced meat, and a blend of aromatic herbs. A rich, hearty meal that\u2019s sure to please any palate."
+        },
+        {
+            "id": 53,
+            "title": "Poutine",
+            "name": "Poutine",
+            "price": "1400.00",
+            "url": "/frontend/images/mynew/poutine.png",
+            "url2": "https://www.simplotfoods.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F0dkgxhks0leg%2F2yeqWukA2traRMH2S3xIYS%2F909fa789452349e328dcd255d6773586%2Floaded_20poutine_20fries_046.jpg%3Ffm%3Dwebp&w=1080&q=75",
+            "category": "Canadian",
+            "detail": "Indulge in our Poutine, a Canadian dish made with crispy fries, rich gravy, and melted cheese curds. A decadent comfort food favorite."
+        },
+        {
+            "id": 54,
+            "title": "Ramen",
+            "name": "Ramen",
+            "price": "1800.00",
+            "url": "/frontend/images/mynew/ramen.png",
+            "url2": "https://www.sandravalvassori.com/wp-content/uploads/2023/01/miso-ramen-3451-2-1152x1536.jpg",
+            "category": "Japanese",
+            "detail": "Our Ramen features soft, chewy noodles in a rich, flavorful broth, topped with tender meats, vegetables, and a boiled egg. A comforting and satisfying dish for any noodle lover."
+        },
+        {
+            "id": 55,
+            "title": "Beef_Tacos",
+            "name": "Beef Tacos",
+            "price": "1200.00",
+            "url": "/frontend/images/mynew/beef_tacos.png",
+            "url2": "https://midwestfoodieblog.com/wp-content/uploads/2024/08/ground-beef-tacos-1-1024x1536.jpg",
+            "category": "Mexican",
+            "detail": "Our Beef Tacos feature seasoned ground beef, crisp lettuce, cheese, and tangy salsa, all wrapped in soft or crunchy taco shells. A tasty and satisfying choice for any meal."
+        },
+        {
+            "id": 56,
+            "title": "Corn_on_the_Cob",
+            "name": "Corn on the Cob",
+            "price": "600.00",
+            "url": "/frontend/images/mynew/corn_on_the_cob.png",
+            "url2": "https://www.eatingwell.com/thmb/Hh9LMYLZhowVP7mOGd0LgJ8tKT8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/EWL-jerk-corn-on-the-cob-hero-6614-ba1640c4340847cc9c51e4aecc951baa.jpg",
+            "category": "Side Dishes",
+            "detail": "Our Corn on the Cob is perfectly grilled or boiled, then brushed with butter and sprinkled with salt. A simple, yet delicious side dish."
+        },
+        {
+            "id": 57,
+            "title": "Chocolate_Chip_Cookies",
+            "name": "Chocolate Chip Cookies",
+            "price": "1500.00",
+            "url": "/frontend/images/mynew/chocolate_chip_cookies.png",
+            "url2": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2022/02/Chocolate-chip-cookies-14.jpg?im=AspectCrop=(16,9);Resize,width=742;",
+            "category": "Desserts",
+            "detail": "Our Chocolate Chip Cookies are soft, chewy, and packed with rich, melty chocolate chips. A timeless treat perfect for any occasion."
+        },
+        {
+            "id": 58,
+            "title": "Pulled_Pork_Sandwich",
+            "name": "Pulled Pork Sandwich",
+            "price": "2000.00",
+            "url": "/frontend/images/mynew/pulled_pork_sandwich.png",
+            "url2": "https://www.cookingclassy.com/wp-content/uploads/2018/10/pulled-pork-sandwiches-88.jpg",
+            "category": "Sandwiches",
+            "detail": "Our Pulled Pork Sandwich features tender, slow-cooked pork, shredded and tossed in barbecue sauce, served on a soft bun. A smoky, flavorful sandwich that\u2019s perfect for any meal."
+        },
+        {
+            "id": 59,
+            "title": "Cheese_Board",
+            "name": "Cheese Board",
+            "price": "2500.00",
+            "url": "/frontend/images/mynew/cheese_board.png",
+            "url2": "https://www.themediterraneandish.com/wp-content/uploads/2018/12/How-to-Make-the-Best-Cheese-Board-The-Mediterranean-Dish-2.jpg",
+            "category": "Appetizers",
+            "detail": "Savor a selection of fine cheeses, accompanied by fresh fruits, nuts, and crackers. Perfect for pairing with wine, our Cheese Board offers a delightful variety of textures and flavors."
+        },
+        {
+            "id": 60,
+            "title": "Minestrone_Soup",
+            "name": "Minestrone Soup",
+            "price": "1300.00",
+            "url": "/frontend/images/mynew/minestrone_soup.png",
+            "url2": "https://www.themediterraneandish.com/wp-content/uploads/2018/12/How-to-Make-the-Best-Cheese-Board-The-Mediterranean-Dish-2.jpg",
+            "category": "Soups",
+            "detail": "Our Minestrone Soup is a hearty vegetable and bean-based soup, packed with fresh ingredients and Italian herbs. A wholesome and nourishing choice."
+        },
+        {
+            "id": 61,
+            "title": "Baked_Ziti",
+            "name": "Baked Ziti",
+            "price": "2200.00",
+            "url": "/frontend/images/mynew/baked_ziti.png",
+            "url2": "https://www.onceuponachef.com/images/2017/10/Baked-Ziti-1120x1365.jpg",
+            "category": "Pasta",
+            "detail": "Our Baked Ziti features tender pasta baked with a rich tomato sauce, melted cheese, and a blend of herbs. A comforting and hearty dish that\u2019s perfect for any occasion."
+        },
+        {
+            "id": 62,
+            "title": "Vegan_Bowl",
+            "name": "Vegan Bowl",
+            "price": "2000.00",
+            "url": "/frontend/images/mynew/vegan_bowl.png",
+            "url2": "https://minimalistbaker.com/wp-content/uploads/2015/04/30-minute-CHICKPEA-Sweet-Potato-BUDDHA-Bowls-A-complete-meal-packed-with-protein-fiber-and-healthy-fats-with-a-STELLAR-Tahini-Lemon-Maple-Sauce-vegan-glutenfree-healthy.jpg",
+            "category": "Vegan",
+            "detail": "Our Vegan Bowl is a healthy and vibrant meal, featuring a base of fresh greens, quinoa or rice, topped with roasted vegetables, beans, and a flavorful dressing. A wholesome, plant-based option."
+        },
+        {
+            "id": 63,
+            "title": "Lentil_Soup",
+            "name": "Lentil Soup",
+            "price": "1200.00",
+            "url": "/frontend/images/mynew/lentil_soup.png",
+            "url2": "https://www.livinglou.com/wp-content/uploads/2020/04/mediterranean-lentil-soup.jpg",
+            "category": "Soups",
+            "detail": "Our hearty Lentil Soup is a comforting blend of tender lentils, aromatic spices, and fresh vegetables. A nourishing and wholesome choice for a light meal or starter."
+        },
+        {
+            "id": 64,
+            "title": "Falafel_Wrap",
+            "name": "Falafel Wrap",
+            "price": "800.00",
+            "url": "/frontend/images/mynew/falafel_wrap.png",
+            "url2": "https://thelemonbowl.com/wp-content/uploads/2020/09/Falafel-Pita-Wrap-1024x1536.jpg",
+            "category": "Vegetarian",
+            "detail": "Enjoy the flavors of the Middle East in our Falafel Wrap, featuring crispy falafel wrapped in warm pita bread with fresh veggies and creamy tahini sauce."
+        },
+        {
+            "id": 65,
+            "title": "Fish_and_Chips",
+            "name": "Fish and Chips",
+            "price": "2500.00",
+            "url": "/frontend/images/mynew/fish_and_chips.png",
+            "url2": "https://forkandtwist.com/wp-content/uploads/2021/04/IMG_0102.jpg",
+            "category": "Seafood",
+            "detail": "A classic favorite, our Fish and Chips feature flaky white fish fried in a light, crispy batter, paired with golden fries. Served with a side of tangy tartar sauce, this dish is a timeless treat."
+        },
+        {
+            "id": 66,
+            "title": "Chocolate_Fondue",
+            "name": "Chocolate Fondue",
+            "price": "1800.00",
+            "url": "/frontend/images/mynew/chocolate_fondue.png",
+            "url2": "https://www.chelseasmessyapron.com/wp-content/uploads/2018/01/The-BEST-EVER-easy-chocolate-fondue5.jpg",
+            "category": "Desserts",
+            "detail": "Indulge in our rich and creamy Chocolate Fondue, perfect for dipping fruits, marshmallows, and pastries. A decadent treat for dessert lovers."
+        },
+        {
+            "id": 67,
+            "title": "Ratatouille",
+            "name": "Ratatouille",
+            "price": "1500.00",
+            "url": "/frontend/images/mynew/ratatouille.png",
+            "url2": "https://www.allrecipes.com/thmb/bkXoArv3mjCmhOHKPBkaQUR48dg=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/222006-disneys-ratatouille-DDMFS-4x3-36eb15843ab548a79e7aab761dac92e1.jpg",
+            "category": "Vegetarian",
+            "detail": "This classic French dish features a medley of roasted vegetables, including zucchini, eggplant, and bell peppers, simmered in a rich tomato sauce. A wholesome and satisfying vegetarian dish."
+        },
+        {
+            "id": 68,
+            "title": "Duck_Confit",
+            "name": "Duck Confit",
+            "price": "5000.00",
+            "url": "/frontend/images/mynew/duck_confit.png",
+            "url2": "https://www.saltvanilla.com/cdn/shop/articles/duck-confit-huckleberry.jpg?v=1695185171&width=1100",
+            "category": "Meat",
+            "detail": "Experience the tender and flavorful Duck Confit, slow-cooked to perfection in its own fat, and served with crispy skin. A French delicacy that\u2019s perfect for any special meal."
+        },
+        {
+            "id": 69,
+            "title": "Cobb_Salad",
+            "name": "Cobb Salad",
+            "price": "2000.00",
+            "url": "/frontend/images/mynew/cobb_salad.png",
+            "url2": "https://www.recipetineats.com/tachyon/2023/08/Cobb-Salad_0.jpg?resize=900%2C1260&zoom=1",
+            "category": "Salads",
+            "detail": "A hearty and satisfying Cobb Salad features a mix of lettuce, avocado, bacon, eggs, chicken, cheese, and a tangy dressing. Perfect for a filling lunch or dinner."
+        },
+        {
+            "id": 70,
+            "title": "Pork_Fried_Rice",
+            "name": "Pork Fried Rice",
+            "price": "1600.00",
+            "url": "/frontend/images/mynew/pork_fried_rice.png",
+            "url2": "https://butteryourbiscuit.com/wp-content/uploads/2019/01/classic-pork-fried-rice-5.jpg",
+            "category": "Rice Menu",
+            "detail": "Our Pork Fried Rice is a flavorful stir-fry dish made with tender pork, vegetables, and rice, all tossed together in a savory sauce. A satisfying and comforting meal."
+        },
+        {
+            "id": 71,
+            "title": "Meatball_Sandwich",
+            "name": "Meatball Sandwich",
+            "price": "2200.00",
+            "url": "/frontend/images/mynew/meatball_sandwich.png",
+            "url2": "https://tastesbetterfromscratch.com/wp-content/uploads/2014/06/Meatball-Subs-11.jpg",
+            "category": "Sandwiches",
+            "detail": "Sink your teeth into our Meatball Sandwich, loaded with juicy meatballs, marinara sauce, and melted cheese, all nestled in a freshly baked sub roll. A hearty and satisfying choice."
+        },
+        {
+            "id": 72,
+            "title": "Sweet_and_Sour_Chicken",
+            "name": "Sweet and Sour Chicken",
+            "price": "3000.00",
+            "url": "/frontend/images/mynew/sweet_and_sour_chicken.png",
+            "url2": "https://omnivorescookbook.com/wp-content/uploads/2022/08/220728_Air-Fryer-Sweet-And-Sour-Chicken_3.jpg",
+            "category": "Chinese",
+            "detail": "Our Sweet and Sour Chicken features tender chicken pieces tossed in a vibrant sauce that balances tangy and sweet flavors. Served with rice or noodles, this dish is a hit for all ages."
+        },
+        {
+            "id": 73,
+            "title": "Fish_Tacos",
+            "name": "Fish Tacos",
+            "price": "1400.00",
+            "url": "/frontend/images/mynew/fish_tacos.png",
+            "url2": "https://www.allrecipes.com/thmb/yLV4wgooryYGm-Dhy6QS3r_lJsc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/221936-Quick-Fish-Tacos-DDMFS-4x3-2604-d5fa7affcf404ed7b25888a16933aa99.jpg",
+            "category": "Mexican",
+            "detail": "Our Fish Tacos feature tender fish fillets seasoned and grilled to perfection, served in soft tortillas with fresh slaw and tangy sauces. A coastal favorite for any meal."
+        },
+        {
+            "id": 74,
+            "title": "Beef_Wellington",
+            "name": "Beef Wellington",
+            "price": "5000.00",
+            "url": "/frontend/images/mynew/beef_wellington.png",
+            "url2": "https://images.squarespace-cdn.com/content/v1/5a3be3f564b05f365bd36ab4/5eb79e3c-6623-4d2d-9726-595842fc086c/beef-wellington-slice.jpeg?format=1000w",
+            "category": "Meat",
+            "detail": "Experience gourmet dining with our Beef Wellington, featuring tender beef fillet encased in a layer of savory mushroom duxelles and wrapped in flaky puff pastry. A perfect choice for special occasions."
+        },
+        {
+            "id": 75,
+            "title": "Tacos",
+            "name": "Tacos",
+            "price": "1200.00",
+            "url": "/frontend/images/mynew/tacos.png",
+            "url2": "https://mojo.generalmills.com/api/public/content/GmHhoT5mr0Sue2oMxdyEig_webp_base.webp?v=868009f1&t=e724eca7b3c24a8aaa6e089ed9e611fd",
+            "category": "Mexican",
+            "detail": "Dive into our Tacos, featuring soft or crunchy shells filled with a variety of flavorful fillings like seasoned meat, fresh vegetables, and tangy sauces. A handheld delight for any occasion."
+        },
+        {
+            "id": 76,
+            "title": "Curry",
+            "name": "Curry",
+            "price": "2500.00",
+            "url": "/frontend/images/mynew/curry.png",
+            "url2": "https://www.allrecipes.com/thmb/RgmMbl6WbqJ-UtQs_CBfdVI2O1A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/15156-Easy-Chicken-Curry-ddmds-4x3-08a906694cc044bfbbd8b303cdf9cc8c.jpg",
+            "category": "Indian",
+            "detail": "Our Curry is a flavorful, aromatic dish made with tender meat or vegetables simmered in a rich, spiced gravy. Served with rice or naan, it\u2019s a comforting meal full of complex flavors."
+        },
+        {
+            "id": 77,
+            "title": "Samosa",
+            "name": "Samosa",
+            "price": "800.00",
+            "url": "/frontend/images/mynew/samosa.png",
+            "url2": "https://myfoodstory.com/wp-content/uploads/2021/08/Punjabi-Samosa-1-1024x1536.jpg",
+            "category": "Snacks",
+            "detail": "Relish the crispy goodness of our Samosas, stuffed with a spiced potato and pea filling. These golden triangles are perfect as a snack, appetizer, or party treat."
+        },
+        {
+            "id": 78,
+            "title": "Chowder",
+            "name": "Chowder",
+            "price": "1500.00",
+            "url": "/frontend/images/mynew/chowder.png",
+            "url2": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Shrimp_and_corn_chowder.jpg",
+            "category": "Soups",
+            "detail": "Warm up with our creamy, rich Chowder, made with tender seafood or vegetables, potatoes, and cream. A comforting dish perfect for a cold day."
+        },
+        {
+            "id": 79,
+            "title": "Tiramisu",
+            "name": "Tiramisu",
+            "price": "1800.00",
+            "url": "/frontend/images/mynew/tiramisu.png",
+            "url2": "https://sugarpursuit.com/wp-content/uploads/2023/03/Easy-tiramisu-recipe-1024x1536.jpg",
+            "category": "Desserts",
+            "detail": "Experience the Italian indulgence of our Tiramisu. This classic dessert features layers of coffee-soaked ladyfingers and creamy mascarpone cheese, dusted with cocoa powder. A perfect ending to any meal."
+        },
+        {
+            "id": 80,
+            "title": "Veggie_Burger",
+            "name": "Veggie Burger",
+            "price": "1200.00",
+            "url": "/frontend/images/mynew/veggie_burger.png",
+            "url2": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/burger-recipe-4-1152x1536.jpg",
+            "category": "Vegetarian",
+            "detail": "Our Veggie Burger is a plant-based masterpiece, featuring a flavorful patty made from fresh vegetables and grains. Topped with crisp lettuce, ripe tomatoes, and your choice of condiments."
+        },
+        {
+            "id": 81,
+            "title": "Falafel_Bowl",
+            "name": "Falafel Bowl",
+            "price": "1000.00",
+            "url": "/frontend/images/mynew/falafel_bowl.png",
+            "url2": "https://www.feastingathome.com/wp-content/uploads/2018/07/Falafel-Bowl-2-1024x1536.jpg",
+            "category": "Vegan",
+            "detail": "Savor the flavors of the Middle East with our Falafel Bowl, featuring crispy falafel balls served on a bed of fresh greens, topped with hummus, tabbouleh, and a tangy dressing."
+        },
+        {
+            "id": 82,
+            "title": "Banh_Mi",
+            "name": "Banh Mi",
+            "price": "1500.00",
+            "url": "/frontend/images/mynew/banh_mi.png",
+            "url2": "https://cdn.loveandlemons.com/wp-content/uploads/2019/02/banh-mi-sandwich.jpg",
+            "category": "Sandwiches",
+            "detail": "Our Banh Mi is a Vietnamese sandwich packed with crispy pork, pickled vegetables, fresh herbs, and a zesty sauce, all served on a crusty baguette. A fusion of savory, tangy, and fresh flavors."
+        },
+        {
+            "id": 83,
+            "title": "Vadapav",
+            "titlea": "Vadapav",
+            "name": "Vadapav",
+            "price": "343545",
+            "url": "/frontend/images/mynew/vadapav new item.jpeg",
+            "url2": "https://dinewithgitanjali.com/wp-content/uploads/2020/06/WhatsApp-Image-2020-06-05-at-1.40.03-PM.jpeg",
+            "category": "Indian",
+            "detail": "A popular Indian street food, our Vadapav features a spiced potato patty, deep-fried and served in a soft pav (bun) with chutneys. A flavorful and filling snack."
+        },
+        {
+            "id": 84,
+            "title": "Empanada",
+            "titlea": "Empanada",
+            "name": "Empanada",
+            "price": "49",
+            "url": "/frontend/images/mynew/Korean_Dumpling_Cooking_Food_Fried__Food__Deep_Fry__Plate_PNG_Transparent_Image_and_Clipart_for_Free_Download-removebg-preview.png",
+            "url2": "https://img.freepik.com/fotos-premium/empanada-argentina-horneada-tradicional-toma-ilustrativa-enfoque-selectivo_531979-5.jpg?w=360",
+            "category": "Latin",
+            "detail": "A classic Latin American delight, our Empanada is a golden, flaky pastry filled with a savory mixture of spiced meat, vegetables, or cheese. Perfect for a quick snack or a satisfying meal."
+        }
+    ]
+}

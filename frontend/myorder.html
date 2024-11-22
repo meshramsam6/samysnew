@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Order</title>
+    <!-- Link to Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="myorder.css"> <!-- Link to updated CSS -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="/frontend/index.html">
+                    QuickBite<br>Delivery
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/frontend/index.html">Home</a></li>
+                <li><a href="/frontend/slider_1-main/index.html">Gallary</a></li>
+                <li><a href="/frontend/eatery-master/index.html">About Us</a></li>
+                <li><a href="/frontend/review/review.html">Review</a></li>
+                <li><a href="/frontend/cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="/login.html" onclick="logout()">Log Out</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <header>
+            <h1>Your Order</h1>
+        </header>
+
+        <section class="order-section">
+            <h2>Order Summary</h2>
+            <div id="order-list"></div> <!-- Dynamic order list here -->
+
+        
+        </section>
+
+        <!-- Submit Order Button -->
+        <button id="submit-order">Submit Order</button>
+    </div>
+
+    <!-- Loading animation overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <script src="order.js"></script> <!-- External JavaScript for functionality -->
+</body>
+
+</html>

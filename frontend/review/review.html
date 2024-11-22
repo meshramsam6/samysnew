@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Review Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="review.css">
+    <style>
+        /* Styling the form section */
+        .container {
+            text-align: center;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .submit-btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #2980b9;
+        }
+
+        .stars {
+            margin-bottom: 20px;
+        }
+
+        .star {
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .star.selected {
+            color: #ff6347;
+        }
+
+        .star:not(.selected) {
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Share Your Review</h1>
+        <form class="form" id="reviewForm">
+            <input type="text" class="input-field" placeholder="Your Name" id="name" required readonly>
+            <input type="email" class="input-field" placeholder="Your Email" id="username" required readonly>
+            <textarea class="input-field" placeholder="Your Review" id="review" rows="5" required></textarea>
+
+            <!-- Optional Dropdown for product selection -->
+            <select id="productSelect" class="input-field">
+                <option value="" disabled selected>Select your favorite food (optional)</option>
+            </select>
+
+            <div class="stars">
+                <span class="star" data-rating="1">&#9733;</span>
+                <span class="star" data-rating="2">&#9733;</span>
+                <span class="star" data-rating="3">&#9733;</span>
+                <span class="star" data-rating="4">&#9733;</span>
+                <span class="star" data-rating="5">&#9733;</span>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Review</button>
+        </form>
+    </div>
+
+    <script>
+        const reviewForm = document.getElementById('reviewForm');
+        const stars = document.querySelectorAll('.star');
+        const productSelect = document.getElementById('productSelect');
+        let rating = 0;
+
+        // Fetch user's email from localStorage
+        const email = localStorage.getItem('email');
+
+        if (email) {
+            fetch('/users.json')
+                .then(response => response.json())
+                .then(data => {
+                    const user = data.users.find(u => u.email === email);
+                    if (user) {
+                        // Fill the form with user data
+                        document.getElementById('name').value = user.username;
+                        document.getElementById('username').value = user.email;
+        
+                        // Store the username as 'reviewuser' in localStorage
+                        localStorage.setItem('reviewuser', user.username);
+                    } else {
+                        alert('User not found!');
+                    }
+                })
+                .catch(err => console.error('Error fetching users.json:', err));
+        } else {
+            alert('No email found in localStorage');
+        }
+        
+
+        // Fetch product names from products.json and populate the dropdown
+        fetch('/frontend/data/products.json')
+            .then(response => response.json())
+            .then(data => {
+                const products = data.products;
+                products.forEach(product => {
+                    const option = document.createElement('option');
+                    option.value = product.id;
+                    option.textContent = product.name;
+                    productSelect.appendChild(option);
+                });
+            })
+            .catch(err => console.error('Error fetching products.json:', err));
+
+        // Handle star rating click
+        stars.forEach(star => {
+            star.addEventListener('click', () => {
+                rating = parseInt(star.getAttribute('data-rating'));
+                stars.forEach(s => s.classList.remove('selected'));
+                stars.forEach(s => {
+                    if (s.getAttribute('data-rating') <= rating) {
+                        s.classList.add('selected');
+                    }
+                });
+            });
+        });
+
+        // Handle form submission
+        reviewForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('username').value;
+            const review = document.getElementById('review').value;
+            const productId = productSelect.value;
+            const productName = productSelect.options[productSelect.selectedIndex].text || '';
+
+            if (name && email && review && rating > 0) {
+                const reviewData = {
+                    name: name,
+                    email: email,
+                    review: review,
+                    rating: rating,
+                    productId: productId,
+                    productName: productName,
+                    date: new Date().toISOString()
+                };
+
+                // Send review data to the server
+                fetch('review.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(reviewData)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        // Redirect to the homepage after successful submission
+                        window.location.href = 'loader_review.html';
+                    } else {
+                        alert('Failed to submit review: ' + data.message);
+                    }
+                })
+                .catch(err => {
+                    alert('An error occurred, please try again.');
+                });
+            } else {
+                alert('Please fill out all fields and select a rating.');
+            }
+        });
+    </script>
+</body>
+</html>

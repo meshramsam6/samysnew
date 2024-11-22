@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="payment_gateway_style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#">
+                    QuickBite<br>Delivery
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/frontend/index.html">Home</a></li>
+                <li><a href="/login.html" onclick="logout()">Log Out</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div class="container">
+        <h1>Payment Gateway</h1>
+        <div class="payment-details">
+            <div class="total-amount"></div>
+            <img id="upiQRCode" alt="UPI QR Code" class="qr-code">
+            <div class="upi-id">UPI ID: <span id="upiId"></span></div>
+            <button class="pay-button">Pay Now</button>
+            <button class="confirm-payment-button">Confirm Payment</button>
+        </div>
+    </div>
+    <script src="payment_gateway_script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+/* General Reset and Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+}
+
+.message {
+    font-size: 4rem;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+/* Text Styling */
+#welcomeMessage {
+    color: #D4AF37; /* Gold color */
+}
+
+#thankYouMessage {
+    color: #F5F5F5; /* Soft white */
+    font-size: 3rem;
+}
+
+#username {
+    color: #00BFFF; /* Glowing cyan */
+    font-size: 3rem;
+}
+
+/* Dust Effect Keyframes */
+@keyframes dustEffect {
+    0% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100px) translateY(30px);
+        filter: blur(2px);
+    }
+}
+
+/* Fade-in animation for text */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Dust Effect Applied */
+.dust {
+    animation: dustEffect 2s forwards;
+}
+
+.fadeIn {
+    animation: fadeIn 1s forwards;
+}
